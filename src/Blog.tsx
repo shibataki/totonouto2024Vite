@@ -18,7 +18,7 @@ const theme = createTheme({
 		h1: {
 			fontWeight: 600,
 
-			fontSize: 32,
+			fontSize: 48,
 		},
 		h3: {
 			fontWeight: 600,
@@ -33,7 +33,7 @@ export default function Blog() {
 		<>
 			<ThemeProvider theme={theme}>
 				<Box sx={{ color: '#FFF', mx: 3, mb: 10 }}>
-					<Typography variant='h1'>
+					<Typography variant='h1' sx={{ fontSize: '5vw' }}>
 						貸切サウナととのうと
 						<br />
 						店主のブログ
