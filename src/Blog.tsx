@@ -9,7 +9,7 @@ import Link from '@mui/material/Link'
 export default function Blog() {
 	return (
 		<>
-			<Box sx={{ color: '#FFF', mx: 3 }}>
+			<Box sx={{ color: '#FFF', mx: 3, mb: 10 }}>
 				<Typography variant='h1'>貸切サウナととのうと/店主のブログ</Typography>
 				<Grid container spacing={3} sx={{ mt: 3 }}>
 					<Grid xs={12} md={6}>
