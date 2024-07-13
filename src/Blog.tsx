@@ -18,7 +18,7 @@ const theme = createTheme({
 		h1: {
 			fontWeight: 600,
 
-			fontSize: 36,
+			fontSize: 32,
 		},
 		h3: {
 			fontWeight: 600,
