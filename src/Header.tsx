@@ -101,6 +101,15 @@ export default function Header() {
 									</ListItemButton>
 								</Link>
 							</ListItem>
+							<ListItem disablePadding>
+								<Link href='/blog/' sx={{ textDecoration: 'none' }}>
+									<ListItemButton>
+										<Typography variant='h2' sx={{ fontSize: 20 }}>
+											店主のブログ
+										</Typography>
+									</ListItemButton>
+								</Link>
+							</ListItem>
 						</List>
 					</Box>
 				</Drawer>

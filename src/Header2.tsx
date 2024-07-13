@@ -60,13 +60,27 @@ export default function Header2() {
 							<ListItem disablePadding>
 								<Link href='/' sx={{ textDecoration: 'none' }}>
 									<ListItemButton>
-										<Typography sx={{ color: '#FFF' }}>トップページ</Typography>
+										<Typography sx={{ color: '#FFF' }}>
+											貸切サウナととのうと
+										</Typography>
+									</ListItemButton>
+								</Link>
+							</ListItem>
+							<ListItem disablePadding>
+								<Link href='/blog/' sx={{ textDecoration: 'none' }}>
+									<ListItemButton>
+										<Typography sx={{ color: '#FFF' }}>ブログトップ</Typography>
 									</ListItemButton>
 								</Link>
 							</ListItem>
 						</List>
 					</Box>
 				</Drawer>
+				<Typography variant='h2' sx={{ fontSize: 14 }}>
+					大阪府/八尾市
+					<br />
+					貸切サウナととのうと
+				</Typography>
 				<Box sx={{ mr: 0, ml: 'auto' }}>
 					{Icons.map((Icon) => (
 						<Link href={Icon.url2} key={Icon.name}>
