@@ -28,7 +28,7 @@ const theme = createTheme({
 	},
 })
 
-ReactDOM.createRoot(document.getElementById('blog')!).render(
+ReactDOM.createRoot(document.getElementById('article1')!).render(
 	<React.StrictMode>
 		<ThemeProvider theme={theme}>
 			<Box
