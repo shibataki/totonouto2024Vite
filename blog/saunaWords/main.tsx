@@ -40,7 +40,7 @@ const theme = createTheme({
 	},
 })
 
-ReactDOM.createRoot(document.getElementById('blog')!).render(
+ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 	<React.StrictMode>
 		<ThemeProvider theme={theme}>
 			<Box sx={{ position: 'fixed', top: 0, zIndex: 1000, width: '100%' }}>
