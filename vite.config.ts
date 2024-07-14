@@ -17,6 +17,7 @@ export default defineConfig({
 				main: resolve(__dirname, 'index.html'),
 				blog: resolve(__dirname, 'blog/index.html'),
 				saunaWords: resolve(__dirname, 'blog/saunaWords/index.html'),
+				article1: resolve(__dirname, 'blog/article1/index.html'),
 			},
 		},
 	},
