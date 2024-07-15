@@ -1,32 +1,11 @@
 import { Box, Typography, Container } from '@mui/material'
 
-import { ThemeProvider, createTheme } from '@mui/material/styles'
-
+import { ThemeProvider } from '@mui/material/styles'
+import theme from './theme'
 import Divider from '@mui/material/Divider'
 
 import Link from '@mui/material/Link'
 import Grid from '@mui/material/Unstable_Grid2'
-
-const theme = createTheme({
-	typography: {
-		fontFamily: ["'Noto Sans JP', sans-serif;"].join(','),
-		body1: {
-			fontWeight: 400,
-
-			fontSize: 15,
-		},
-		h1: {
-			fontWeight: 600,
-
-			fontSize: 40,
-		},
-		h3: {
-			fontWeight: 600,
-
-			fontSize: 22,
-		},
-	},
-})
 
 interface WordItemProps {
 	word: string

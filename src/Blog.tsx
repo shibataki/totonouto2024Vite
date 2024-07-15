@@ -5,28 +5,8 @@ import CardMedia from '@mui/material/CardMedia'
 import { CardActionArea } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
 import Link from '@mui/material/Link'
-import { ThemeProvider, createTheme } from '@mui/material/styles'
-
-const theme = createTheme({
-	typography: {
-		fontFamily: ["'Noto Sans JP', sans-serif;"].join(','),
-		body1: {
-			fontWeight: 400,
-
-			fontSize: 15,
-		},
-		h1: {
-			fontWeight: 600,
-
-			fontSize: 48,
-		},
-		h3: {
-			fontWeight: 600,
-
-			fontSize: 22,
-		},
-	},
-})
+import { ThemeProvider } from '@mui/material/styles'
+import theme from './theme'
 
 export default function Blog() {
 	return (
@@ -47,6 +27,7 @@ export default function Blog() {
 										backgroundColor: '#000',
 										color: '#FFF',
 										border: 'solid white 1px',
+										p: 2,
 									}}
 								>
 									<CardActionArea>

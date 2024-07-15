@@ -10,8 +10,6 @@ import ListItem from '@mui/material/ListItem'
 import ListItemButton from '@mui/material/ListItemButton'
 import Link from '@mui/material/Link'
 
-//import { Link as DomLink } from 'react-router-dom'
-
 type IconObj = { name: string; url: string; url2: string }
 const Icons: IconObj[] = [
 	{

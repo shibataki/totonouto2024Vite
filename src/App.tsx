@@ -5,8 +5,8 @@ import { Box, Container, Typography } from '@mui/material'
 
 import Footer from './Footer'
 
-import { ThemeProvider, createTheme } from '@mui/material/styles'
-
+import { ThemeProvider } from '@mui/material/styles'
+import theme from './theme'
 import Introduction from './Introduction'
 import Price from './price'
 import GuideMap from './GuideMap'
@@ -14,44 +14,13 @@ import QA from './QA'
 import Access from './Access'
 import Campaign from './Campaign'
 
-const theme = createTheme({
-	typography: {
-		fontFamily: ["'Noto Sans JP', sans-serif;"].join(','),
-		h1: {
-			fontWeight: 600,
-			fontSize: 40,
-			color: '#FFF',
-		},
-		h2: {
-			fontWeight: 400,
-			fontSize: 34,
-			color: '#FFF',
-		},
-		h3: {
-			fontWeight: 400,
-			fontSize: 28,
-			color: '#FFF',
-		},
-		h5: {
-			fontWeight: 400,
-			fontSize: 18,
-			color: '#FFF',
-		},
-		body1: {
-			fontWeight: 200,
-			fontSize: 16,
-			color: '#FFF',
-		},
-	},
-})
-
 function App() {
 	return (
 		<>
+			<Box sx={{ position: 'fixed', top: 0, zIndex: 1000, width: '100%' }}>
+				<Header />
+			</Box>
 			<ThemeProvider theme={theme}>
-				<Box sx={{ position: 'fixed', top: 0, zIndex: 1000, width: '100%' }}>
-					<Header />
-				</Box>
 				<Typography variant='body1' align='center' sx={{ mt: 10, mb: 1 }}>
 					2024年リニューアル
 				</Typography>
@@ -84,10 +53,10 @@ function App() {
 						<Campaign />
 					</Box>
 				</Container>
-				<Box sx={{ position: 'fixed', bottom: 0, zIndex: 1000, width: '100%' }}>
-					<Footer />
-				</Box>
 			</ThemeProvider>
+			<Box sx={{ position: 'fixed', bottom: 0, zIndex: 1000, width: '100%' }}>
+				<Footer />
+			</Box>
 		</>
 	)
 }
