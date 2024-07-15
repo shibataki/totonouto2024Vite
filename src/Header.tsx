@@ -85,7 +85,10 @@ export default function Header() {
 											offset={-60}
 											onClick={() => setIsOpen(false)}
 										>
-											<Typography variant='h2' sx={{ fontSize: 20 }}>
+											<Typography
+												variant='h2'
+												sx={{ fontSize: 20, color: '#FFF' }}
+											>
 												{content.text}
 											</Typography>
 										</Scroll>
@@ -95,7 +98,10 @@ export default function Header() {
 							<ListItem disablePadding>
 								<Link href='/blog/saunaWords/' sx={{ textDecoration: 'none' }}>
 									<ListItemButton>
-										<Typography variant='h2' sx={{ fontSize: 20 }}>
+										<Typography
+											variant='h2'
+											sx={{ fontSize: 20, color: '#FFF' }}
+										>
 											サウナ用語集
 										</Typography>
 									</ListItemButton>
@@ -104,7 +110,10 @@ export default function Header() {
 							<ListItem disablePadding>
 								<Link href='/blog/' sx={{ textDecoration: 'none' }}>
 									<ListItemButton>
-										<Typography variant='h2' sx={{ fontSize: 20 }}>
+										<Typography
+											variant='h2'
+											sx={{ fontSize: 20, color: '#FFF' }}
+										>
 											店主のブログ
 										</Typography>
 									</ListItemButton>

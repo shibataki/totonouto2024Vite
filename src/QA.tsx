@@ -171,7 +171,7 @@ export default function QA() {
 							aria-controls={content.Q}
 							id={content.Q}
 						>
-							<Typography variant='h5' sx={{ width: '100%', flexShrink: 0 }}>
+							<Typography variant='body1' sx={{ width: '100%', flexShrink: 0 }}>
 								{content.Q}
 							</Typography>
 						</AccordionSummary>

@@ -9,7 +9,7 @@ export default function Campaign() {
 
 			<Box sx={{ mb: 5 }}>
 				<Typography variant='h3' sx={{ mb: 1, color: 'yellow' }}>
-					<Box component='span' sx={{ fontSize: 20, color: '#FFF' }}>
+					<Box component='span' sx={{ color: '#FFF' }}>
 						instagram投稿で
 					</Box>
 					<br />
@@ -21,7 +21,7 @@ export default function Campaign() {
 			</Box>
 			<Box sx={{ mb: 5 }}>
 				<Typography variant='h3' sx={{ mb: 1, color: 'yellow' }}>
-					<Box component='span' sx={{ fontSize: 20, color: '#FFF' }}>
+					<Box component='span' sx={{ color: '#FFF' }}>
 						LINE追加＆次回ご予約で
 					</Box>
 					<br />

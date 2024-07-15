@@ -8,7 +8,7 @@ export default function H1({ children }: { children: React.ReactNode }) {
 				mt: '100px',
 				mb: '50px',
 				color: '#FFF',
-				fontSize: '5vw',
+
 				textAlign: 'center',
 			}}
 		>
