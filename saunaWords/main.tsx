@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import '../../src/index.css'
+import '../src/index.css'
 import { Box } from '@mui/material'
 import { ThemeProvider } from '@mui/material/styles'
-import theme from '../../src/theme'
+import theme from '../src/theme'
 import Link from '@mui/material/Link'
-import Header2 from '../../src/Header2'
-import Footer from '../../src/Footer'
-import SaunaWords from '../../src/SaunaWords'
+import Header2 from '../src/Header2'
+import Footer from '../src/Footer'
+import SaunaWords from '../src/SaunaWords'
 
 ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 	<React.StrictMode>
