@@ -19,6 +19,7 @@ export default defineConfig({
 				saunaWords: resolve(__dirname, 'saunaWords/index.html'),
 				article1: resolve(__dirname, 'article1/index.html'),
 				article2: resolve(__dirname, 'article2/index.html'),
+				article3: resolve(__dirname, 'article3/index.html'),
 			},
 		},
 	},

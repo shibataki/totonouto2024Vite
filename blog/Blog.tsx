@@ -43,6 +43,15 @@ const cardContents: {
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2F%E3%83%AD%E3%82%B3%E3%82%99%E7%99%BD.png?alt=media&token=949aa7e8-886c-4a7b-a790-9be2b2716a28',
 		alt: 'ととのうとロゴ',
 	},
+	{
+		title: 'サウナオーナーは営業後にサウナに入るのか？',
+		text: '貸切サウナととのうとの店主はバカがつくほどのサウナ好き。きっと営業終わりにサウナを満喫しているんでしょうね。。。',
+		date: '2024/07/15',
+		url: '/article3/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2F%E3%83%AD%E3%82%B3%E3%82%99%E7%99%BD.png?alt=media&token=949aa7e8-886c-4a7b-a790-9be2b2716a28',
+		alt: 'ととのうとロゴ',
+	},
 ]
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
