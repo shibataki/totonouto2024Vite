@@ -1,10 +1,32 @@
 {
-  "hosting": {
-    "public": "dist",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+	"hosting": {
+		"public": "dist",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"rewrites": [
+			{
+				"source": "/article1",
+				"destination": "/article1/index.html"
+			},
+			{
+				"source": "/article2",
+				"destination": "/article2/index.html"
+			},
+			{
+				"source": "/article3",
+				"destination": "/article3/index.html"
+			},
+			{
+				"source": "/blog",
+				"destination": "/blog/index.html"
+			},
+			{
+				"source": "/saunaWords",
+				"destination": "/saunaWords/index.html"
+			},
+			{
+				"source": "/",
+				"destination": "/index.html"
+			}
+		]
+	}
 }
