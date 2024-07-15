@@ -452,6 +452,9 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 							</Typography>
 						</Contents>
 					</WrapH2>
+					<Box sx={{ mt: 2 }}>
+						<Link href='https://totonouto.com'>お店のwebページもみてね。</Link>
+					</Box>
 				</Box>
 			</Container>
 		</ThemeProvider>

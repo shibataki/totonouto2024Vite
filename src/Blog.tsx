@@ -26,7 +26,7 @@ const cardContents: {
 		alt: 'ととのうとロゴ',
 	},
 	{
-		title: '「貸切サウナととのうと」とは',
+		title: '貸切サウナととのうととは',
 		text: '貸切サウナととのうとを店主自らご紹介。ととのうとの基本情報はもちろん、工事の裏側や店主の想いなどがわかるかも。',
 		date: '2024/07/15',
 		url: '/blog/article1/',
@@ -76,7 +76,11 @@ export default function Blog() {
 												>
 													{contents.title}
 												</Typography>
+
 												<Typography variant='body2'>{contents.text}</Typography>
+												<Typography variant='body1' align='right'>
+													{contents.date}
+												</Typography>
 											</CardContent>
 										</CardActionArea>
 									</Card>
