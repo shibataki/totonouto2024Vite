@@ -23,5 +23,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "react-app-env.d.ts", "firebase.ts", "src/Blog.tsx"]
+  "include": ["src", "react-app-env.d.ts", "firebase.ts", "blog/Blog.tsx"]
 }
