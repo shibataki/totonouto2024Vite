@@ -8,7 +8,7 @@ import theme from '../src/theme'
 import Link from '@mui/material/Link'
 import Header2 from '../src/Header2'
 import Footer from '../src/Footer'
-import SaunaWords from '../src/SaunaWords'
+import SaunaWords from './SaunaWords'
 
 ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 	<React.StrictMode>
