@@ -64,8 +64,6 @@ ReactDOM.createRoot(document.getElementById('article3')!).render(
 								<br />
 								私はこのお店でたくさんの仲間と出会った。
 								<br />
-								一部を除いてほぼ全員頭のネジが飛んでいる。
-								<br />
 								<br />
 								ここで出会った仲間たちが貸切サウナととのうとの工事を支えてくれた。
 								<br />

@@ -27,21 +27,13 @@ ReactDOM.createRoot(document.getElementById('article2')!).render(
 		<ThemeProvider theme={theme}>
 			<Container maxWidth='md'>
 				<Box component='article' sx={{ px: 4, mb: 15 }}>
-					<H1>
-						関西 大阪 八尾 2024年リニューアル
-						<br />
-						カップルでも利用が可能なサウナ施設
-						<br />
-						貸切サウナととのうと 店主がお店を始めたわけ
-					</H1>
+					<H1>貸切サウナととのうと 店主がお店を始めたわけ</H1>
 					<MyImg
 						src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2F%E3%83%AD%E3%82%B3%E3%82%99%E7%99%BD.png?alt=media&token=949aa7e8-886c-4a7b-a790-9be2b2716a28'
 						alt='ととのうとのロゴ'
 					/>
 					<WrapH2>
-						<H2>
-							貸切サウナととのうと店主がお店を始めた理由をちょっぴり語ります。
-						</H2>
+						<H2>店主がお店を始めた理由をちょっぴり語ります。</H2>
 						<Contents>
 							<Typography variant='body1'>
 								2019年9月
