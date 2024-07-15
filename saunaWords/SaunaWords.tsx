@@ -1,7 +1,7 @@
 import { Box, Typography, Container } from '@mui/material'
 
 import { ThemeProvider } from '@mui/material/styles'
-import theme from './theme'
+import theme from '../src/theme'
 import Divider from '@mui/material/Divider'
 
 import Link from '@mui/material/Link'
