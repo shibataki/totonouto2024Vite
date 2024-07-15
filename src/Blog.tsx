@@ -6,7 +6,7 @@ import { CardActionArea } from '@mui/material'
 import Grid from '@mui/material/Unstable_Grid2'
 import Link from '@mui/material/Link'
 import { ThemeProvider } from '@mui/material/styles'
-import theme from '../src/theme'
+import theme from './theme'
 
 const cardContents: {
 	title: string
@@ -20,7 +20,7 @@ const cardContents: {
 		title: 'サウナ用語集',
 		text: 'ととのうと店主がサウナ用語をまとめました。今更聞けないサウナ用語！ぜひチェックしてみてください。誤りのご指摘や追記してほしい用語など募集中です。気軽に店主にお声がけください。',
 		date: '2024/07/14',
-		url: '/saunaWords/',
+		url: 'https://totonouto.com/saunaWords/',
 		image:
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2F%E3%83%AD%E3%82%B3%E3%82%99%E7%99%BD.png?alt=media&token=949aa7e8-886c-4a7b-a790-9be2b2716a28',
 		alt: 'ととのうとロゴ',
@@ -29,7 +29,7 @@ const cardContents: {
 		title: '貸切サウナととのうととは',
 		text: '貸切サウナととのうとを店主自らご紹介。ととのうとの基本情報はもちろん、工事の裏側や店主の想いなどがわかるかも。',
 		date: '2024/07/15',
-		url: '/article1/',
+		url: 'https://totonouto.com/article1/',
 		image:
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2F%E3%83%AD%E3%82%B3%E3%82%99%E7%99%BD.png?alt=media&token=949aa7e8-886c-4a7b-a790-9be2b2716a28',
 		alt: 'ととのうとロゴ',
@@ -38,7 +38,7 @@ const cardContents: {
 		title: '店主がお店を始めたわけ',
 		text: '貸切サウナととのうと 店主がお店を始めた理由をちょっぴりご紹介します。',
 		date: '2024/07/15',
-		url: '/article2/',
+		url: 'https://totonouto.com/article2/',
 		image:
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2F%E3%83%AD%E3%82%B3%E3%82%99%E7%99%BD.png?alt=media&token=949aa7e8-886c-4a7b-a790-9be2b2716a28',
 		alt: 'ととのうとロゴ',
