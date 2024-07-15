@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Blog from '../src/Blog'
+import Blog from './Blog'
 import '../src/index.css'
 import { Box } from '@mui/material'
 import Header2 from '../src/Header2'

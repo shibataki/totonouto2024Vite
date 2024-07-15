@@ -1,20 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-import '../../src/index.css'
+import '../src/index.css'
 
 import { Box, Typography, Container } from '@mui/material'
 import { ThemeProvider } from '@mui/material/styles'
-import theme from '../../src/theme'
+import theme from '../src/theme'
 import Link from '@mui/material/Link'
 
-import Header2 from '../../src/Header2'
-import Footer from '../../src/Footer'
-import MyImg from '../../src/MyImg'
-import WrapH2 from '../../src/WrapH2'
-import Contents from '../../src/Contents'
-import H1 from '../../src/H1'
-import H2 from '../../src/H2'
+import Header2 from '../src/Header2'
+import Footer from '../src/Footer'
+import MyImg from '../src/MyImg'
+import WrapH2 from '../src/WrapH2'
+import Contents from '../src/Contents'
+import H1 from '../src/H1'
+import H2 from '../src/H2'
 
 ReactDOM.createRoot(document.getElementById('article2')!).render(
 	<React.StrictMode>

@@ -96,7 +96,7 @@ export default function Header() {
 								</ListItem>
 							))}
 							<ListItem disablePadding>
-								<Link href='/blog/saunaWords/' sx={{ textDecoration: 'none' }}>
+								<Link href='/saunaWords/' sx={{ textDecoration: 'none' }}>
 									<ListItemButton>
 										<Typography
 											variant='h2'
