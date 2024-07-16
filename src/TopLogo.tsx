@@ -5,7 +5,7 @@ export default function TopLogo() {
 
 	const images: HTMLImageElement = new Image()
 	const src: string =
-		'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2FtopLogo1.jpeg?alt=media&token=b5bd74d5-dedf-491e-8ddb-29e7936fffd1'
+		'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2FTopLogo.jpeg?alt=media&token=9e567f4a-77cc-4bf6-b5cc-29032b789a77'
 	images.src = src
 	return (
 		<Box>

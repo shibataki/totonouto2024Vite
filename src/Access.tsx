@@ -5,7 +5,7 @@ export default function Access() {
 	return (
 		<Box sx={{ color: '#FFF', textAlign: 'center', mb: 8 }}>
 			<Box sx={{ mb: 1 }}>
-				<Typography variant='h2'>【アクセス】</Typography>
+				<Typography variant='h2'>【アクセス/店舗情報】</Typography>
 			</Box>
 
 			<Box sx={{ mb: 3 }}>

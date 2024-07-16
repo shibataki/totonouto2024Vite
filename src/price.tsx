@@ -1,5 +1,6 @@
 import { Box, Typography } from '@mui/material'
 import Grid from '@mui/material/Grid'
+import MyImg from './MyImg'
 
 const saunaName: string[] = ['フタリサウナ', 'イロリサウナ']
 const futariPrice: string[] = ['1名：4,800-', '2名：9,000-']
@@ -83,7 +84,7 @@ export default function Price() {
 							mt: 5,
 						}}
 					>
-						【料金メニュー】
+						【ご利用料金とサービス内容】
 					</Typography>
 				</Grid>
 				<Grid item xs={12}>
@@ -180,6 +181,7 @@ export default function Price() {
 						</Typography>
 					</Grid>
 				))}
+				<MyImg src='' alt='' />
 				<Grid item xs={12}>
 					<Typography
 						variant='body1'

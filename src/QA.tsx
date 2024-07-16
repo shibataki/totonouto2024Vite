@@ -157,7 +157,7 @@ export default function QA() {
 					variant='h2'
 					sx={{ color: '#FFF', textAlign: 'center', mb: 2, mt: 10 }}
 				>
-					【Q&A】
+					【Q&A:よくある質問】
 				</Typography>
 				{QAs.map((content) => (
 					<Accordion

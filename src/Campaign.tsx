@@ -4,7 +4,7 @@ export default function Campaign() {
 	return (
 		<Box sx={{ color: '#FFF', textAlign: 'center' }}>
 			<Box sx={{ mb: 2 }}>
-				<Typography variant='h2'>【キャンペーン】</Typography>
+				<Typography variant='h2'>【お得なキャンペーン実施中】</Typography>
 			</Box>
 
 			<Box sx={{ mb: 5 }}>
@@ -16,7 +16,7 @@ export default function Campaign() {
 					ステッカープレゼント
 				</Typography>
 				<Typography variant='body1'>
-					ご利用時間内にinstagramへ投稿いただいたお客様にステッカーを無料で配布しております。くわしくは受付までお問い合わせください。
+					ご利用中にinstagramへ投稿いただいたお客様にステッカーを無料で配布しております。くわしくは受付までお問い合わせください。
 				</Typography>
 			</Box>
 			<Box sx={{ mb: 5 }}>
@@ -28,7 +28,7 @@ export default function Campaign() {
 					1000円OFF
 				</Typography>
 				<Typography variant='body1'>
-					ご利用時間内に公式LINEの友達追加と次回分のご予約をいただいたお客様にステッカーを無料で配布しております。くわしくは受付までお問い合わせください。
+					ご利用中に公式LINEの友達追加と次回分のご予約をいただいたお客様にステッカーを無料で配布しております。くわしくは受付までお問い合わせください。
 				</Typography>
 			</Box>
 		</Box>
