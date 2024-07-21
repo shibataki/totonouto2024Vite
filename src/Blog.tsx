@@ -50,6 +50,15 @@ const cardContents: {
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
 		alt: 'ととのうとロゴ',
 	},
+	{
+		title: 'ととのうとプチリニューアル？',
+		text: '2024年7月のプチリニューアルのお知らせ',
+		date: '2024/07/21',
+		url: '/article4/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
+		alt: 'ととのうとロゴ',
+	},
 ]
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
