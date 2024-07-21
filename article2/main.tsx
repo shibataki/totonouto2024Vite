@@ -29,7 +29,7 @@ ReactDOM.createRoot(document.getElementById('article2')!).render(
 				<Box component='article' sx={{ px: 4, mb: 15 }}>
 					<H1>貸切サウナととのうと 店主がお店を始めたわけ</H1>
 					<MyImg
-						src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2F%E3%83%AD%E3%82%B3%E3%82%99%E7%99%BD.png?alt=media&token=949aa7e8-886c-4a7b-a790-9be2b2716a28'
+						src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff'
 						alt='ととのうとのロゴ'
 					/>
 					<WrapH2>

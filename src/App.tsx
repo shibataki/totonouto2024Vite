@@ -22,10 +22,10 @@ function App() {
 			</Box>
 			<ThemeProvider theme={theme}>
 				<Typography variant='body1' align='center' sx={{ mt: 10, mb: 1 }}>
-					2024年リニューアル
+					2021年オープン/2024年リニューアル
 				</Typography>
 				<Typography variant='h1' sx={{ fontSize: '5vw' }} align='center'>
-					関西｜大阪府|八尾市|完全予約制
+					大阪府|八尾市|完全予約制
 					<br />
 					貸切サウナととのうと
 				</Typography>
