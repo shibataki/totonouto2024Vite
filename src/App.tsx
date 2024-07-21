@@ -13,6 +13,7 @@ import GuideMap from './GuideMap'
 import QA from './QA'
 import Access from './Access'
 import Campaign from './Campaign'
+import Blog from './Blog'
 
 function App() {
 	return (
@@ -25,7 +26,7 @@ function App() {
 					2021年オープン/2024年リニューアル
 				</Typography>
 				<Typography variant='h1' sx={{ fontSize: '5vw' }} align='center'>
-					大阪府|八尾市|完全予約制
+					大阪府|八尾市|完全予約制|個室空間
 					<br />
 					貸切サウナととのうと
 				</Typography>
@@ -51,6 +52,9 @@ function App() {
 					</Box>
 					<Box id='campaign'>
 						<Campaign />
+					</Box>
+					<Box id='blog'>
+						<Blog />
 					</Box>
 				</Container>
 			</ThemeProvider>

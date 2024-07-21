@@ -64,13 +64,6 @@ export default function Header2() {
 									</ListItemButton>
 								</Link>
 							</ListItem>
-							<ListItem disablePadding>
-								<Link href='/blog/' sx={{ textDecoration: 'none' }}>
-									<ListItemButton>
-										<Typography sx={{ color: '#FFF' }}>ブログトップ</Typography>
-									</ListItemButton>
-								</Link>
-							</ListItem>
 						</List>
 					</Box>
 				</Drawer>
