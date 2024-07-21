@@ -3,7 +3,7 @@ import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import CardMedia from '@mui/material/CardMedia'
 import { CardActionArea } from '@mui/material'
-import Grid from '@mui/material/Unstable_Grid2'
+
 import Link from '@mui/material/Link'
 
 const cardContents: {
@@ -60,47 +60,46 @@ export default function Blog() {
 				<Typography variant='h2' align='center'>
 					【店主のブログ】
 				</Typography>
-				<Grid container spacing={3} sx={{ mt: 3 }}>
-					{cardContents.map((contents) => (
-						<Grid xs={12} key={contents.title}>
-							<Link href={contents.url} sx={{ textDecoration: 'none' }}>
-								<Card
-									sx={{
-										maxWidth: 345,
-										backgroundColor: '#000',
-										color: '#FFF',
-										border: 'solid white 1px',
-										p: 2,
-									}}
-								>
-									<CardActionArea>
-										<CardMedia
-											component='img'
-											width='100%'
-											image={contents.image}
-											alt={contents.alt}
-										/>
-										<CardContent>
-											<Typography
-												align='center'
-												gutterBottom
-												variant='h3'
-												component='div'
-											>
-												{contents.title}
-											</Typography>
 
-											<Typography variant='body2'>{contents.text}</Typography>
-											<Typography variant='body1' align='right'>
-												{contents.date}
-											</Typography>
-										</CardContent>
-									</CardActionArea>
-								</Card>
-							</Link>
-						</Grid>
-					))}
-				</Grid>
+				{cardContents.map((contents) => (
+					<Link href={contents.url} sx={{ textDecoration: 'none' }}>
+						<Card
+							sx={{
+								maxWidth: 345,
+								backgroundColor: '#000',
+								color: '#FFF',
+								border: 'solid white 1px',
+								p: 2,
+								mx: 'auto',
+								my: 2,
+							}}
+						>
+							<CardActionArea>
+								<CardMedia
+									component='img'
+									width='100%'
+									image={contents.image}
+									alt={contents.alt}
+								/>
+								<CardContent>
+									<Typography
+										align='center'
+										gutterBottom
+										variant='h3'
+										component='div'
+									>
+										{contents.title}
+									</Typography>
+
+									<Typography variant='body2'>{contents.text}</Typography>
+									<Typography variant='body1' align='right'>
+										{contents.date}
+									</Typography>
+								</CardContent>
+							</CardActionArea>
+						</Card>
+					</Link>
+				))}
 			</Box>
 		</>
 	)
