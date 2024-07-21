@@ -62,7 +62,7 @@ export default function Blog() {
 				</Typography>
 				<Grid container spacing={3} sx={{ mt: 3 }}>
 					{cardContents.map((contents) => (
-						<Grid xs={12} md={6} key={contents.title}>
+						<Grid xs={12} key={contents.title}>
 							<Link href={contents.url} sx={{ textDecoration: 'none' }}>
 								<Card
 									sx={{
