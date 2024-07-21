@@ -52,6 +52,7 @@ const scrollItems: { id: string; text: string }[] = [
 	{ id: 'QA', text: 'よくある質問' },
 	{ id: 'access', text: 'アクセス' },
 	{ id: 'campaign', text: 'キャンペーン' },
+	{ id: 'blog', text: '店主のブログ' },
 ]
 
 export default function Header() {
@@ -103,18 +104,6 @@ export default function Header() {
 											sx={{ fontSize: 20, color: '#FFF' }}
 										>
 											サウナ用語集
-										</Typography>
-									</ListItemButton>
-								</Link>
-							</ListItem>
-							<ListItem disablePadding>
-								<Link href='/blog/' sx={{ textDecoration: 'none' }}>
-									<ListItemButton>
-										<Typography
-											variant='h2'
-											sx={{ fontSize: 20, color: '#FFF' }}
-										>
-											店主のブログ
 										</Typography>
 									</ListItemButton>
 								</Link>
