@@ -15,6 +15,8 @@ export default function Footer() {
 			}}
 		>
 			<Link
+				component='a'
+				rel='nofollow'
 				href='https://squareup.com/appointments/book/80qow5lpnzjxk6/LKYP0BZWKK5VX/services'
 				underline='none'
 				sx={{ width: '100%', textAlign: 'center' }}

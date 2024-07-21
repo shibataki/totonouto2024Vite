@@ -20,7 +20,8 @@ const IntroObj: IntroArray = [
 	{
 		alt: '貸切サウナととのうと',
 		urls: [
-			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2F%E3%83%AD%E3%82%B3%E3%82%99%E7%99%BD.png?alt=media&token=949aa7e8-886c-4a7b-a790-9be2b2716a28',
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FIntroduction%2Fgaikan.jpeg?alt=media&token=2769130d-57b9-46a6-bad5-fb8ef210e957',
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FIntroduction%2Flogo.jpeg?alt=media&token=3f69f620-342e-44a9-8918-91a596410b13',
 		],
 		typo: [
 			'大阪の八尾にある完全予約制の貸切サウナ。',
@@ -167,7 +168,7 @@ export default function Introduction() {
 	return (
 		<>
 			<Typography variant='h2' sx={{ textAlign: 'center', mb: 5 }}>
-				【施設の特徴】
+				【ととのうとの施設一覧】
 			</Typography>
 			{IntroObj.map((content, i) => (
 				<IntroductionCard

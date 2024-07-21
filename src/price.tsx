@@ -95,7 +95,7 @@ export default function Price() {
 							mt: 5,
 						}}
 					>
-						サウナご利用料金
+						サウナご入浴料金
 					</Typography>
 				</Grid>
 				{saunaName.map((content) => (
@@ -181,7 +181,10 @@ export default function Price() {
 						</Typography>
 					</Grid>
 				))}
-				<MyImg src='' alt='' />
+				<MyImg
+					src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fprice%2Foropo.jpeg?alt=media&token=9e26d098-18aa-4750-9f50-d6e83be0a549'
+					alt='シャリシャリオロポ'
+				/>
 				<Grid item xs={12}>
 					<Typography
 						variant='body1'

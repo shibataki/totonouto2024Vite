@@ -123,20 +123,20 @@ export default function Header() {
 					</Box>
 				</Drawer>
 				<Typography variant='h2' sx={{ fontSize: 14 }}>
-					大阪/八尾
+					大阪
 					<br />
 					貸切サウナととのうと
 				</Typography>
 				<Box sx={{ mr: 0, ml: 'auto' }}>
 					{Icons.map((Icon) => (
-						<Link href={Icon.url2} key={Icon.name}>
+						<Box component='a' href={Icon.url2} key={Icon.name} rel='nofollow'>
 							<Box
 								component='img'
 								src={Icon.url}
 								alt={Icon.name}
 								sx={{ ml: 1, width: '20px', height: '20px' }}
 							/>
-						</Link>
+						</Box>
 					))}
 				</Box>
 			</Toolbar>

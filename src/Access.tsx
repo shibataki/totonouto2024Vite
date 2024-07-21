@@ -1,5 +1,6 @@
 import { Box, Typography } from '@mui/material'
 import Link from '@mui/material/Link'
+import MyImg from './MyImg'
 
 export default function Access() {
 	return (
@@ -9,6 +10,10 @@ export default function Access() {
 			</Box>
 
 			<Box sx={{ mb: 3 }}>
+				<MyImg
+					src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Faccess%2F%E5%BA%97%E8%88%97%E5%A4%96%E8%A6%B3.jpeg?alt=media&token=27b51396-e4f7-428c-b1eb-ab9059e859a4'
+					alt='外観'
+				/>
 				<Typography variant='body1'>店舗情報</Typography>
 
 				<Typography variant='body1'>〒581-0084</Typography>
