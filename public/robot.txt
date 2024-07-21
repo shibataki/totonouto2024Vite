@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://totonouto.com/sitemap.xml

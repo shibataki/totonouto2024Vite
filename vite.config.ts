@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename)
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
+	assetsInclude: ['robots.txt'],
 	root: resolve(__dirname, './'),
 	build: {
 		outDir: resolve(__dirname, 'dist'),
