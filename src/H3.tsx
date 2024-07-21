@@ -6,6 +6,7 @@ export default function H3({ children }: { children: React.ReactNode }) {
 			component='h3'
 			sx={{
 				color: '#FFF',
+				borderBottom: 'solid 1px #FFF',
 			}}
 		>
 			{children}
