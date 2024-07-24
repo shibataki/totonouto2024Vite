@@ -5,7 +5,12 @@ export default function GuideMap() {
 	return (
 		<Container sx={{ mb: 5, mt: 10 }}>
 			<Typography variant='h2' sx={{ textAlign: 'center' }}>
-				【施設図/ご利用可能エリア】
+				施設図
+				<br />
+				ご利用可能エリア
+			</Typography>
+			<Typography variant='body1' sx={{ py: 2 }}>
+				イロリサウナ・フタリサウナの両方をご利用いただけます。
 			</Typography>
 			<Suspense fallback={<div>Loading...</div>}>
 				<Box

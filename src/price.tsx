@@ -2,9 +2,9 @@ import { Box, Typography } from '@mui/material'
 import Grid from '@mui/material/Grid'
 import MyImg from './MyImg'
 
-const saunaName: string[] = ['フタリサウナ', 'イロリサウナ']
-const futariPrice: string[] = ['1名：4,800-', '2名：9,000-']
-const iroriPrice: string[] = [
+const saunaName: string[] = ['サウナ2時間貸切']
+
+const saunaPrice: string[] = [
 	'2名：12,000-',
 	'3名：17,100-',
 	'4名：22,000-',
@@ -84,7 +84,9 @@ export default function Price() {
 							mt: 5,
 						}}
 					>
-						【ご利用料金とサービス内容】
+						ご利用料金
+						<br />
+						サービス内容
 					</Typography>
 				</Grid>
 				<Grid item xs={12}>
@@ -99,7 +101,7 @@ export default function Price() {
 					</Typography>
 				</Grid>
 				{saunaName.map((content) => (
-					<Grid item xs={6} key={content}>
+					<Grid item xs={12} key={content}>
 						<Box
 							sx={{
 								display: 'flex',
@@ -109,7 +111,11 @@ export default function Price() {
 						>
 							<Typography
 								variant='body1'
-								sx={{ writingMode: 'vertical-rl', fontSize: 24 }}
+								sx={{
+									writingMode: 'vertical-rl',
+									textOrientation: 'upright',
+									fontSize: 24,
+								}}
 							>
 								{content}
 							</Typography>
@@ -117,8 +123,8 @@ export default function Price() {
 					</Grid>
 				))}
 
-				<Grid item xs={6} sx={{ height: '105px' }}>
-					{futariPrice.map((content) => (
+				<Grid item xs={12}>
+					{saunaPrice.map((content) => (
 						<Typography
 							variant='body1'
 							sx={{ textAlign: 'center', mb: 0.2 }}
@@ -128,16 +134,10 @@ export default function Price() {
 						</Typography>
 					))}
 				</Grid>
-				<Grid item xs={6}>
-					{iroriPrice.map((content) => (
-						<Typography
-							variant='body1'
-							sx={{ textAlign: 'center', mb: 0.2 }}
-							key={content}
-						>
-							{content}
-						</Typography>
-					))}
+				<Grid item xs={12}>
+					<Typography variant='body1'>
+						※イロリサウナとフタリサウナの両方をご利用いただけます。
+					</Typography>
 				</Grid>
 				<Grid item xs={12}>
 					<Typography
