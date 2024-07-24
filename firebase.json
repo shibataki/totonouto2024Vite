@@ -16,8 +16,12 @@
 				"destination": "/article3/index.html"
 			},
 			{
-				"source": "/blog",
-				"destination": "/blog/index.html"
+				"source": "/article4",
+				"destination": "/article4/index.html"
+			},
+			{
+				"source": "/article5",
+				"destination": "/article5/index.html"
 			},
 			{
 				"source": "/saunaWords",
