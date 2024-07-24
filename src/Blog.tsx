@@ -67,7 +67,7 @@ export default function Blog() {
 		<>
 			<Box sx={{ color: '#FFF', mx: 3, mb: 10 }}>
 				<Typography variant='h2' align='center'>
-					【店主のブログ】
+					店主のブログ
 				</Typography>
 
 				{cardContents.map((contents) => (

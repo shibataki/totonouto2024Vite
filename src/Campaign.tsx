@@ -4,7 +4,11 @@ export default function Campaign() {
 	return (
 		<Box sx={{ color: '#FFF', textAlign: 'center' }}>
 			<Box sx={{ mb: 2 }}>
-				<Typography variant='h2'>【お得なキャンペーン実施中】</Typography>
+				<Typography variant='h2'>
+					お得なキャンペーン
+					<br />
+					実施中
+				</Typography>
 			</Box>
 
 			<Box sx={{ mb: 5 }}>
