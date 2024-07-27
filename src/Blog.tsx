@@ -68,6 +68,15 @@ const cardContents: {
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
 		alt: 'ととのうとロゴ',
 	},
+	{
+		title: '大阪八尾のサウナ飯',
+		text: '貸切サウナととのうとの店主が近隣のサウナ飯をご紹介',
+		date: '2024/07/27',
+		url: '/article6/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
+		alt: 'ととのうとロゴ',
+	},
 ]
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
