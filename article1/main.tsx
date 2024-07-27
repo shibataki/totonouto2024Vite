@@ -29,18 +29,16 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 			<Container maxWidth='md'>
 				<Box component='article' sx={{ px: 4, mb: 15 }}>
 					<H1>
-						関西 大阪 八尾 2024年リニューアル
+						大阪でカップル利用が可能な個室サウナ施設
 						<br />
-						カップルでも利用が可能なサウナ施設
-						<br />
-						貸切サウナととのうと とは？
+						貸切サウナととのうととは？
 					</H1>
 					<MyImg
 						src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff'
 						alt='ととのうとのロゴ'
 					/>
 					<WrapH2>
-						<H2>貸切サウナととのうとってどんな施設？</H2>
+						<H2>貸切サウナととのうととは？</H2>
 						<Contents>
 							<Typography variant='body1'>
 								貸切サウナととのうとは2020年オープンの大阪府八尾市にある貸切専門のサウナ施設。
@@ -49,6 +47,11 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 								<br />
 								サウナや水風呂を自分たちだけで使えるし、お庭で外気浴もできちゃいます。
 							</Typography>
+							<Box sx={{ mt: 2 }}>
+								<Link href='https://totonouto.com/article5/'>
+									予約方法はこちらでご紹介しております。
+								</Link>
+							</Box>
 							<MyImg
 								src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2F%E5%BA%97%E8%88%97%E5%A4%96%E8%A6%B3.jpeg?alt=media&token=e3c2f762-f02e-4fea-b206-f41e07eef0d9'
 								alt='ととのうとの外観'
@@ -90,24 +93,34 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 						</Contents>
 					</WrapH2>
 					<WrapH2>
-						<H2>カップルや夫婦、男女間の友人と利用が可能？</H2>
+						<H2>カップル/男女でも利用が可能？</H2>
 						<Contents>
 							<Typography variant='body1'>
-								貸切サウナととのうとにはフタリサウナとイロリサウナ、2つのご利用プランがございます。
+								貸切サウナととのうとにはフタリサウナとイロリサウナ、2部屋のサウナ室がございます。
+								<br />
+								ご予約いただくと、両方のサウナをご利用いただけます。
+								<br />
+								お時間は1枠で2時間になります。2時間以上ご利用になりたい場合は連続した2枠をご予約ください。
+								<br />
+								また、男女でご利用可能です。カップルでもご夫婦でも友達同士でもオッケーです！
+								<br />
+								女性の方は必ず水着を持ってきてくださいね。（水着のレンタルが男性用のみになります。）
+								<br />
+								レンタルグッズは数に限りがあること、予めご了承ください。
 								<br />
 								<br />
 								フタリサウナ
 								<br />
-								フタリサウナは男女でご利用いただけません。ご注意ください。
+								オープン当初からあるサウナ。
 								<br />
-								お一人、男性2名、女性2名のいずれかでご利用ください。
+								2〜3名様が入れる広さです。
 								<br />
 								<br />
 								イロリサウナ
 								<br />
-								イロリサウナが男女でご利用可能です。カップルでもご夫婦でも友達同士でもオッケーです！
+								2024年のリニューアルで誕生したサウナ
 								<br />
-								女性の方は必ず水着を持ってきてくださいね。（水着のレンタルが男性用のみになります。）
+								6名様まで入れる広さです
 								<br />
 								<br />
 								それぞれのサウナの詳細は続きの記事をチェック！
@@ -115,22 +128,18 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 						</Contents>
 					</WrapH2>
 					<WrapH2>
-						<H2>
-							フタリサウナ/ プライベートなひと時を。
-							<br />
-							小さな個室空間をひとり占め！
-							<br />
-							(最大2名まで)
-						</H2>
+						<H2>フタリサウナ</H2>
 						<Contents>
+							<MyImg
+								src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Ffutari.jpeg?alt=media&token=80be614d-5020-4ac2-8188-879349825595'
+								alt='フタリサウナ'
+							/>
 							<Typography variant='body1'>
 								小さな個室サウナをひとり占めするのがオススメ。
 								<br />
+								プライベート感満載です。
 								<br />
 								フタリサウナ
-								<br />
-								同性であれば2名さまでもご利用いただけますが、少し手狭になるためイロリサウナをおすすめしております。
-								<br />
 								<br />
 								サウナ、水風呂、シャワー脱衣所ぜーんぶたった一人で使えるって良いですよね。。。
 								<br />
@@ -150,16 +159,13 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 								alt='フタリサウナの写真'
 							/>
 							<Typography variant='body1'>
-								もちろんお庭で外気浴もできます！
+								そして、お庭が外気浴スペースになっております！
 							</Typography>
 							<MyImg
 								src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FIntroduction%2Fdaruma.jpeg?alt=media&token=3f53663c-505d-49e7-99f7-a0279a6d723e'
 								alt='外気浴場の写真'
 							/>
 							<Typography variant='body1'>
-								チラー付きではないので、冷たい水がお好きな方は夏は避けてくださいね。イロリサウナには2024年夏チラー導入予定です。詳細はお問い合わせください。
-								<br />
-								<br />
 								店主とそのなかまたちが初めてDIYしたサウナ。
 								<br />
 								元々は店主が趣味で使おうと思っておりました。。。
@@ -172,14 +178,12 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 						</Contents>
 					</WrapH2>
 					<WrapH2>
-						<H2>
-							イロリサウナ/デートにも友達同士でも。
-							<br />
-							誰とでも入れる店主オススメのサウナ室！
-							<br />
-							（最大6名まで）
-						</H2>
+						<H2>イロリサウナ</H2>
 						<Contents>
+							<MyImg
+								src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FIntroduction%2Firori.jpeg?alt=media&token=1a3bd9b6-6c76-4d67-ad49-64f6f6d91e22'
+								alt='イロリサウナ'
+							/>
 							<Typography variant='body1'>
 								イロリサウナは2024年のリニューアルで誕生した新しいサウナ。
 								<br />
@@ -291,7 +295,7 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 						</Contents>
 					</WrapH2>
 					<WrapH2>
-						<H2>大阪市内からのアクセスしやすい/JR八尾</H2>
+						<H2>大阪市内からのアクセスも良好</H2>
 						<Contents>
 							<Typography variant='body1'>
 								店舗情報
@@ -299,7 +303,8 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 								<br />
 								住所:大阪府八尾市植松町5-5-15
 								<br />
-								営業時間 10:00〜22:00
+								営業時間 10:00〜22:00 <br />
+								(最終枠/20:00〜22:00)
 								<br />
 								定休日 火曜日
 								<br />
@@ -327,11 +332,12 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 								当店の並びにコインパーキングあり
 								<br />
 								<Link href=''>Googleマップはこちら</Link>
+								<br />
 							</Typography>
 						</Contents>
 					</WrapH2>
 					<WrapH2>
-						<H2>気になる料金は？キャッシュレス対応</H2>
+						<H2>気になる料金は？</H2>
 						<Contents>
 							<Typography variant='body1'>
 								サウナのご利用料金はご予約時にクレジットカードで決済
@@ -344,14 +350,7 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 								料金は下記になります。
 								<br />
 								<br />
-								フタリサウナ(120分)
-								<br />
-								1名様 4,800-
-								<br />
-								2名様 9,000-
-								<br />
-								<br />
-								イロリサウナ(120分)
+								貸切サウナ(120分)
 								<br />
 								2名様 12,000-
 								<br />
@@ -391,6 +390,10 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 								<br />
 								<br />
 							</Typography>
+							<MyImg
+								src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fprice%2Foropo.jpeg?alt=media&token=9e26d098-18aa-4750-9f50-d6e83be0a549'
+								alt='シャリシャリオロポ'
+							/>
 							<Typography variant='body1'>
 								レンタル
 								<br />
@@ -408,7 +411,7 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 								ポンチョ 800
 								<br />
 								<br />
-							</Typography>{' '}
+							</Typography>
 							<Typography variant='body1'>
 								ロウリュ用アロマ
 								<br />
@@ -420,9 +423,11 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 						</Contents>
 					</WrapH2>
 					<WrapH2>
-						<H2>アメニティやレンタルできるサウナグッズは？</H2>
+						<H2>アメニティやレンタルは？</H2>
 						<Contents>
 							<Typography variant='body1'>
+								ご用意させていただいているアメニティをご紹介します。
+								<br />
 								腕時計
 								<br />
 								サウナ室に砂時計がないので、腕時計をタイマー代わりにどうぞ。
@@ -449,11 +454,39 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 								<br />
 								無印です。
 								<br />
+								[一覧]
+								<br />
+								<ul>
+									<li>腕時計</li>
+									<li>ボディソープ</li>
+									<li>シャンプー</li>
+									<li>コンディショナー</li>
+									<li>綿棒</li>
+									<li>ドライヤー</li>
+									<li>化粧水</li>
+									<li>乳液</li>
+									<li>クレンジング</li>
+								</ul>
+								<br />
+								<br />
 							</Typography>
 						</Contents>
 					</WrapH2>
 					<Box sx={{ mt: 2 }}>
 						<Link href='https://totonouto.com'>お店のwebページもみてね。</Link>
+					</Box>
+					<Box sx={{ mt: 2 }}>
+						<Link
+							component='a'
+							rel='nofollow'
+							href='https://www.instagram.com/sauna_totonouto/?hl=ja'
+						>
+							instagram
+						</Link>
+						<br />
+						<Link component='a' rel='nofollow' href='https://lin.ee/vQYTxe4'>
+							公式Line
+						</Link>
 					</Box>
 				</Box>
 			</Container>

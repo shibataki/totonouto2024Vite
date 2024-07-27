@@ -35,6 +35,16 @@ ReactDOM.createRoot(document.getElementById('article5')!).render(
 					<WrapH2>
 						<H2>予約サイトにアクセス</H2>
 						<Contents>
+							<Box sx={{ mt: 2 }}>
+								<Link href='https://totonouto.com/article1/'>
+									施設のことをもっと知りたい方はこちらの記事をチェック。
+								</Link>
+								<Box sx={{ mt: 2 }}>
+									<Link href='https://totonouto.com/'>
+										店舗情報などはこちら。
+									</Link>
+								</Box>
+							</Box>
 							<Typography variant='body1'>
 								webサイトの下部に「ご予約はこちらから」と書かれた赤いボタンがあります。
 								<br />
