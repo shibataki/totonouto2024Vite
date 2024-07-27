@@ -24,6 +24,10 @@
 				"destination": "/article5/index.html"
 			},
 			{
+				"source": "/article6",
+				"destination": "/article6/index.html"
+			},
+			{
 				"source": "/saunaWords",
 				"destination": "/saunaWords/index.html"
 			},
