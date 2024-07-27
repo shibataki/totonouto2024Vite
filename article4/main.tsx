@@ -132,6 +132,9 @@ ReactDOM.createRoot(document.getElementById('article4')!).render(
 								お値段はそのまま。
 								<br />
 								<br />
+								2024/7/24からご利用可能になりました。
+								<br />
+								<br />
 							</Typography>
 							<H3>ひろーいお庭もまるごとつかえる？</H3>
 							<Typography variant='body1'>
@@ -143,6 +146,9 @@ ReactDOM.createRoot(document.getElementById('article4')!).render(
 								<br />
 								<br />
 								これまた、お値段はそのまま。
+								<br />
+								<br />
+								2024/7/24からご利用可能になりました。
 								<br />
 								<br />
 							</Typography>
@@ -196,6 +202,11 @@ ReactDOM.createRoot(document.getElementById('article4')!).render(
 					</WrapH2>
 					<Box sx={{ mt: 2 }}>
 						<Link href='https://totonouto.com'>お店のwebページもみてね。</Link>
+					</Box>
+					<Box sx={{ mt: 2 }}>
+						<Link href='https://totonouto.com/article5/'>
+							予約方法がわからない方はこちら。
+						</Link>
 					</Box>
 				</Box>
 			</Container>

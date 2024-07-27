@@ -91,6 +91,11 @@ ReactDOM.createRoot(document.getElementById('article3')!).render(
 					<Box sx={{ mt: 2 }}>
 						<Link href='https://totonouto.com'>お店のwebページもみてね。</Link>
 					</Box>
+					<Box sx={{ mt: 2 }}>
+						<Link href='https://totonouto.com/article5/'>
+							予約方法がわからない方はこちら。
+						</Link>
+					</Box>
 				</Box>
 			</Container>
 		</ThemeProvider>
