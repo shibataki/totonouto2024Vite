@@ -36,7 +36,9 @@ ReactDOM.createRoot(document.getElementById('article6')!).render(
 						<H2>大阪 八尾エリアのサウナ飯</H2>
 						<Contents>
 							<Typography variant='body1'>
-								ととのうと店主によるとても投げやりなサウナ飯紹介。
+								ととのうと店主によるとても投げやり？なサウナ飯紹介。
+								<br />
+								大阪　八尾エリアの魅力的なお店をご紹介します。
 								<br />
 								2024年7月現在の情報です。
 								<br />
@@ -70,15 +72,18 @@ ReactDOM.createRoot(document.getElementById('article6')!).render(
 								サ飯と呼ばれることもあるね。
 								<br />
 								<br />
-								サウナでしっかりととのったあとに食べるご飯は特別おいしい！
+								サウナでしっかり汗を流し、ととのったあとに食べるご飯は特別おいしく感じますよね！
+								<br />
+								味覚が敏感になって美味しく感じるみたい。
+								<br />
+								発汗することでエネルギーを消費するから？
+								<br />
+								発汗することで塩分が不足するから？
+								<br />
+								諸説あるみたい。
 								<br />
 								<br />
-								なぜ美味しくなるのか？
-								<br />
-								諸説ありそうなのでここでは割愛。
-								<br />
-								<br />
-								皆さんはどんなサウナ飯がお好きですか？
+								皆さんはどんなメニューがお好きですか？
 								<br />
 								<br />
 								定食系？
@@ -87,7 +92,9 @@ ReactDOM.createRoot(document.getElementById('article6')!).render(
 								<br />
 								揚げ物？
 								<br />
-								やっぱりお酒？
+								麺類？
+								<br />
+								やっぱりビール？
 								<br />
 								<br />
 								この記事では、ととのうとの店主がよく行くお店をちょっぴりご紹介します。
@@ -163,13 +170,16 @@ ReactDOM.createRoot(document.getElementById('article6')!).render(
 								貸切サウナととのうとから徒歩10秒のご近所さん
 								<br />
 								<br />
-								サウナ後に海鮮ならここで間違いなし！
+								海鮮ならここで間違いなし！
 								<br />
 								<br />
 								全てが絶品。
 								<br />
-								海鮮、串揚げ、寿司、鍋、、、なんでもあって全てが良い
+								味覚が敏感になるサウナ後に食べるとヤバい！
 								<br />
+								お造り、串揚げ、寿司、鍋、、、なんでもあって全ての料理が良い
+								<br />
+								同じ食材を違う調理方法で食べ比べするのも良いですよ。
 								<br />
 								旬のものがあるので、おすすめをお店の人に聞くのが良いよ！
 								<br />
@@ -220,6 +230,8 @@ ReactDOM.createRoot(document.getElementById('article6')!).render(
 								<br />
 								<br />
 								おいしい焼き鳥にお造りもあります
+								<br />
+								野菜の串焼きも魅力的。
 								<br />
 								〆にラーメンたべれます。
 								<br />
@@ -273,12 +285,11 @@ ReactDOM.createRoot(document.getElementById('article6')!).render(
 								でも、他の焼き物も美味しい。。。
 								<br />
 								<br />
-								店主はいつもオムライスを頼みます。笑
+								店主はいつもオムライスをいただきます。笑
 								<br />
 								鉄板で作るオムライス。最高！！
 								<br />
-								<br />
-								ねぎ焼きとかもあるよ
+								そしてドリンクはコーラ酎ハイを楽しむ。。。
 								<br />
 								<br />
 								ネットでの情報は少ないので、ととのうと店主に聞いてみてください。
@@ -330,7 +341,9 @@ ReactDOM.createRoot(document.getElementById('article6')!).render(
 								<br />
 								朝一番にマンジェによって記名
 								<br />
-								ととのうとで貸切サウナ
+								ととのうとでサウナに入る
+								<br />
+								しっかり発汗する。
 								<br />
 								マンジェでランチ
 								<br />
@@ -339,9 +352,7 @@ ReactDOM.createRoot(document.getElementById('article6')!).render(
 								<br />
 							</Typography>
 
-							<Link href='https://tabelog.com/osaka/A2707/A270705/27013624/'>
-								食べログ
-							</Link>
+							<Link href='https://tonkatsumanger.com/'>webサイト</Link>
 							<MyImg
 								src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle6%2Fmager1.jpeg?alt=media&token=b04d9e2a-67d6-47ff-9304-d527038e011d'
 								alt='とんかつマンジェ'
@@ -388,10 +399,20 @@ ReactDOM.createRoot(document.getElementById('article6')!).render(
 								<br />
 								美味しいお酒がいっぱい
 								<br />
+								メニューがいっぱいあると何を頼めば良いか悩みますよね。
+								<br />
+								そんな時は、「サウナ後にぴったりなドリンクをください」と言えばOK
+								<br />
+								お酒でのノンアルコールでも作ってくれますよ。
+								<br />
+								プライベート感が欲しい方は個室がありますよ。
 								<br />
 								バーテンダーみつるのインスタグラムが面白いと評判
 								<br />
 								みてやってください。
+								<br />
+								<br />
+								サウナ後にお酒を飲む時は水分補給をわすれないでね。
 							</Typography>
 
 							<Link href='https://www.instagram.com/cafebardonna/'>
