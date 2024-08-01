@@ -77,6 +77,15 @@ const cardContents: {
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
 		alt: 'ととのうとロゴ',
 	},
+	{
+		title: 'サウナの本場北欧へ、店主のフィンランドサウナ旅。2019.09の旅行記',
+		text: '貸切サウナととのうとのオープン前。サウナの本場北欧、フィンランドへのサウナ旅のお話。2019.09の旅行記をご紹介。',
+		date: '2024/08/01',
+		url: '/article7/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle7%2Farticle7-1.jpeg?alt=media&token=c7832c97-46b7-4c39-9ce8-e981e5735066',
+		alt: 'フィンランドの湖',
+	},
 ]
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
