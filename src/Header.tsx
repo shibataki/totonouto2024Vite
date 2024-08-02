@@ -108,13 +108,28 @@ export default function Header() {
 									</ListItemButton>
 								</Link>
 							</ListItem>
+							<ListItem disablePadding>
+								<Link
+									href='https://sauna-ikitai.com/saunas/11891'
+									sx={{ textDecoration: 'none' }}
+								>
+									<ListItemButton>
+										<Typography
+											variant='h2'
+											sx={{ fontSize: 20, color: '#FFF' }}
+										>
+											サウナイキタイ
+										</Typography>
+									</ListItemButton>
+								</Link>
+							</ListItem>
 						</List>
 					</Box>
 				</Drawer>
 				<Typography variant='h2' sx={{ fontSize: 14 }}>
-					大阪
-					<br />
 					貸切サウナととのうと
+					<br />
+					関西/大阪/プライベートな個室空間でととのう
 				</Typography>
 				<Box sx={{ mr: 0, ml: 'auto' }}>
 					{Icons.map((Icon) => (
