@@ -26,7 +26,7 @@ function App() {
 					2021年オープン/2024年リニューアル
 				</Typography>
 				<Typography variant='h1' sx={{ fontSize: '5vw' }} align='center'>
-					大阪府|八尾市|完全予約制|個室空間
+					プライベートな個室空間|大阪府|八尾市|完全予約制|
 					<br />
 					貸切サウナととのうと
 				</Typography>

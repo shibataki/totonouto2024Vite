@@ -22,7 +22,11 @@ export default function Access() {
 
 				<Typography variant='body1'>〒581-0084</Typography>
 				<Typography variant='body1'>大阪府八尾市植松町5-5-15</Typography>
-				<Link href='https://www.google.com/maps/place/%E8%B2%B8%E5%88%87%E3%82%B5%E3%82%A6%E3%83%8A%E3%81%A8%E3%81%A8%E3%81%AE%E3%81%86%E3%81%A8/@34.6161464,135.591077,17z/data=!3m1!4b1!4m6!3m5!1s0x6000d9fd0c5b2105:0x84d2c47a31899af3!8m2!3d34.616142!4d135.5936519!16s%2Fg%2F11rr3zld5c?entry=ttu'>
+				<Link
+					component='a'
+					rel='nofollow'
+					href='https://www.google.com/maps/place/%E8%B2%B8%E5%88%87%E3%82%B5%E3%82%A6%E3%83%8A%E3%81%A8%E3%81%A8%E3%81%AE%E3%81%86%E3%81%A8/@34.6161464,135.591077,17z/data=!3m1!4b1!4m6!3m5!1s0x6000d9fd0c5b2105:0x84d2c47a31899af3!8m2!3d34.616142!4d135.5936519!16s%2Fg%2F11rr3zld5c?entry=ttu'
+				>
 					<Typography variant='body1' sx={{ color: '#99CCFF' }}>
 						Googleマップはこちらをクリック
 					</Typography>

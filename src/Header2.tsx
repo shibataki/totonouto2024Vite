@@ -68,9 +68,9 @@ export default function Header2() {
 					</Box>
 				</Drawer>
 				<Typography variant='h2' sx={{ fontSize: 14 }}>
-					大阪府/八尾市
-					<br />
 					貸切サウナととのうと
+					<br />
+					関西/大阪/プライベートな個室空間でととのう
 				</Typography>
 				<Box sx={{ mr: 0, ml: 'auto' }}>
 					{Icons.map((Icon) => (
