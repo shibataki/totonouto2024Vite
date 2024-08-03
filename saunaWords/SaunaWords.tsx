@@ -49,6 +49,17 @@ function WordItem({
 
 const wordList: WordItemProps[] = [
 	{
+		word: 'サウナ',
+		text: [
+			'高温の部屋に入って、体を温め発汗する温浴方法',
+			'発祥はフィンランド',
+		],
+		linkUrls: [''],
+		linkText: [''],
+		imgUrl: '',
+		alt: '',
+	},
+	{
 		word: 'サウナストーブ',
 		text: [
 			'サウナ室を温めるストーブ。',

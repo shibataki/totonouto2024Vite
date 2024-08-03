@@ -57,4 +57,14 @@ theme.typography.body2 = {
 	},
 }
 
+theme.components = {
+	MuiLink: {
+		styleOverrides: {
+			root: {
+				color: '#99CCFF', // リンクのデフォルトカラー
+			},
+		},
+	},
+}
+
 export default theme
