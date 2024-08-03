@@ -13,7 +13,6 @@ import Header2 from '../src/Header2'
 import Footer from '../src/Footer'
 import H1 from '../src/H1'
 import H2 from '../src/H2'
-import H3 from '../src/H3'
 import MyImg from '../src/MyImg'
 import WrapH2 from '../src/WrapH2'
 
@@ -25,7 +24,9 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 		<ThemeProvider theme={theme}>
 			<Container sx={{ mt: '60px', mb: '70px', color: '#FFF', p: 2 }}>
 				<Box>
-					<H1>貸切サウナととのうと店主がまとめたサウナ用語集。</H1>
+					<H1>サウナ用語集を貸切サウナととのうとの店主がまとめました。</H1>
+					<Typography variant='body1'>最終更新日:2024/07/14</Typography>
+					<br />
 					<Typography variant='body1'>
 						ととのうとの店主がサウナに関連する用語を紹介・解説します。
 						<br />
@@ -137,7 +138,7 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 								/>
 
 								<Link href='https://www.instagram.com/daruma.244/'>
-									<Typography variant='body1'>ニワダルマ</Typography>
+									ニワダルマ
 								</Link>
 							</WrapH2>
 						</Grid>
@@ -154,6 +155,16 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 									src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FIntroduction%2Ffutari2.jpeg?alt=media&token=40a51b52-b757-4e8f-91a0-6d72a4d357a1'
 									alt='貸切サウナととのうとの水風呂'
 								/>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>アヴァント</H2>
+								<Box>
+									<Typography variant='body1'>
+										凍った湖に開けた穴。冬のフィンランドではアヴァントでアイススイミングを楽しんだりします。店主もやってきました。
+									</Typography>
+								</Box>
 							</WrapH2>
 						</Grid>
 						<Grid xs={12} md={6} lg={4}>
@@ -257,9 +268,7 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 									</Typography>
 								</Box>
 
-								<Link href='https://neverjp.com/'>
-									<Typography variant='body1'>しょーへいさんの会社</Typography>
-								</Link>
+								<Link href='https://neverjp.com/'>しょーへいさんの会社</Link>
 							</WrapH2>
 						</Grid>
 						<Grid xs={12} md={6} lg={4}>
@@ -313,6 +322,26 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 						</Grid>
 						<Grid xs={12} md={6} lg={4}>
 							<WrapH2>
+								<H2>サ活</H2>
+								<Box>
+									<Typography variant='body1'>
+										サウナ活動の略。サウナライフやサウナイキタイに活動の記録を投稿しよう。
+									</Typography>
+								</Box>
+								<Link href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%83%A9%E3%82%A4%E3%83%95-%E3%82%B5%E3%82%A6%E3%83%8A%E3%83%9E%E3%83%83%E3%83%97%E3%81%A7%E3%82%B5%E3%82%A6%E3%83%8A%E3%81%8C%E3%81%99%E3%81%90%E3%81%AB%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8B/id1560767089'>
+									サウナライフ -サウナマップでサウナがすぐに見つかる App Store
+								</Link>
+								<Link href='https://play.google.com/store/apps/details?id=app.product.saunadaisuki&hl=ja&gl=US'>
+									サウナライフ – サウナマップでサウナがすぐに見つかるアプリ –
+									Google Play のアプリ
+								</Link>
+								<Link href='https://sauna-ikitai.com/saunas/11891'>
+									サウナイキタイ
+								</Link>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
 								<H2>サウナマット</H2>
 								<Box>
 									<Typography variant='body1'>
@@ -349,9 +378,7 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 										サウナ室の中で薪を燃やしてサウナストーンを温める。サウナ室に煙が充満するがサウナ室が十分に温まったあと煙を排出する。フィンランドで体験しました。激熱でした。やんちゃなおじいさんのロウリュが過激。日本では岡山県の久米屋さんで体験できます。ととのうとを作る時にサウナのことを色々と教えていただきました。施設の方も良い方ばかりでイチオシです。
 									</Typography>
 								</Box>
-								<Link href='https://nakaute.com/'>
-									<Typography variant='body1'>久米屋</Typography>
-								</Link>
+								<Link href='https://nakaute.com/'>久米屋</Link>
 							</WrapH2>
 						</Grid>
 						<Grid xs={12} md={6} lg={4}>
@@ -396,6 +423,26 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 						</Grid>
 						<Grid xs={12} md={6} lg={4}>
 							<WrapH2>
+								<H2>フィンランド式サウナ</H2>
+								<Box>
+									<Typography variant='body1'>
+										フィンランドで主流のサウナ。セルフロウリュできることが特徴。ドライサウナと同じくらいか少し低い温度帯。フィンランドには多種多様なサウナがあったので定義が曖昧な感じになってます。
+									</Typography>
+								</Box>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>塩サウナ</H2>
+								<Box>
+									<Typography variant='body1'>
+										体に塩を塗りながら楽しむサウナ。温度が比較的低いのが特徴。擦ると肌に良くないので注意。
+									</Typography>
+								</Box>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
 								<H2>バーニャ</H2>
 								<Box>
 									<Typography variant='body1'>
@@ -422,9 +469,7 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 										お気に入りサウナ施設のこと。店主のホームサウナはヘルシーバスニュー栄です。
 									</Typography>
 								</Box>
-								<Link href='https://newsakae.com/'>
-									<Typography variant='body1'>ヘルシーバスニュー栄</Typography>
-								</Link>
+								<Link href='https://newsakae.com/'>ヘルシーバスニュー栄</Link>
 							</WrapH2>
 						</Grid>
 						<Grid xs={12} md={6} lg={4}>
@@ -437,6 +482,109 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 								</Box>
 							</WrapH2>
 						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>サウナバケツ</H2>
+								<Box>
+									<Typography variant='body1'>
+										サウナで使うバケツ。フィンランド語でキウルと言う。
+									</Typography>
+								</Box>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>主（ぬし）</H2>
+								<Box>
+									<Typography variant='body1'>
+										銭湯やサウナ施設の常連さんのこと。場所取りなどの自分勝手な行動をとる人に対して使われることが多い。マナーや施設が決めたルールを守りましょう。
+									</Typography>
+								</Box>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>清める</H2>
+								<Box>
+									<Typography variant='body1'>
+										サウナに入る前に頭や体を洗うこと。サウナ室に汚れを持ち込まないだけでなく、発汗しやすくなるとも言われています。体を清めてからサウナに入りましょう。
+									</Typography>
+								</Box>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>サ旅</H2>
+								<Box>
+									<Typography variant='body1'>
+										サウナを主目的とした旅行。サウナ旅の略。
+									</Typography>
+								</Box>
+								<Link href='https://totonouto.com/article7/'>
+									サウナの本場北欧へ、店主のフィンランドサウナ旅。2019.09の旅行記
+								</Link>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>サウナの日</H2>
+								<Box>
+									<Typography variant='body1'>
+										3月7日はサウナの日。施設によってはお得なサービスがあるかも。
+									</Typography>
+								</Box>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>ペンギンルーム</H2>
+								<Box>
+									<Typography variant='body1'>
+										クールダウン用のキンキンに冷えた部屋。アイスサウナとも言われる。
+									</Typography>
+								</Box>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>アカスリ</H2>
+								<Box>
+									<Typography variant='body1'>
+										アカスリ用の手袋で体を擦り。体の垢を落としてくれるサービス。古い角質を取り除きお肌がツルツルになるとか。
+									</Typography>
+								</Box>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>サウナライフ</H2>
+								<Box>
+									<Typography variant='body1'>
+										サウナライフは、近くのサウナをマップでカンタンに検索できるサウナアプリです。
+									</Typography>
+								</Box>
+								<Link href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%83%A9%E3%82%A4%E3%83%95-%E3%82%B5%E3%82%A6%E3%83%8A%E3%83%9E%E3%83%83%E3%83%97%E3%81%A7%E3%82%B5%E3%82%A6%E3%83%8A%E3%81%8C%E3%81%99%E3%81%90%E3%81%AB%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8B/id1560767089'>
+									サウナライフ -サウナマップでサウナがすぐに見つかる App Store
+								</Link>
+								<Link href='https://play.google.com/store/apps/details?id=app.product.saunadaisuki&hl=ja&gl=US'>
+									サウナライフ – サウナマップでサウナがすぐに見つかるアプリ –
+									Google Play のアプリ
+								</Link>
+							</WrapH2>
+						</Grid>
+						<Grid xs={12} md={6} lg={4}>
+							<WrapH2>
+								<H2>サウナイキタイ</H2>
+								<Box>
+									<Typography variant='body1'>
+										サウナの検索サイト。サウナ施設の詳細やサウナー達のサ活が投稿されています。
+									</Typography>
+								</Box>
+								<Link href='https://sauna-ikitai.com/saunas/11891'>
+									サウナイキタイ
+								</Link>
+							</WrapH2>
+						</Grid>
 					</Grid>
 				</Box>
 				<Box sx={{ mt: 8 }}>
@@ -447,9 +595,7 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 						サウナタイム様の記事を参考にさせていただきました。
 					</Typography>
 					<Link href='https://saunatime.jp/sauna-wiki/'>
-						<Typography variant='body2'>
-							これで全てがわかる！サウナ用語集【サウナWiki】
-						</Typography>
+						これで全てがわかる！サウナ用語集【サウナWiki】
 					</Link>
 				</Box>
 				<Box sx={{ mt: 2, mb: 15, mx: 5 }}>
