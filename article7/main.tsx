@@ -30,7 +30,7 @@ ReactDOM.createRoot(document.getElementById('article7')!).render(
 					<H1>
 						サウナの本場北欧へ、店主のフィンランドサウナ旅。2019.09の旅行記
 					</H1>
-					<Typography variant='body1'>最終更新日:2024/08/01</Typography>
+					<Typography variant='body1'>最終更新日:2024年08月01日</Typography>
 					<MyImg
 						src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle7%2Farticle7-1.jpeg?alt=media&token=c7832c97-46b7-4c39-9ce8-e981e5735066'
 						alt='フィンランドの湖'

@@ -25,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 			<Container sx={{ mt: '60px', mb: '70px', color: '#FFF', p: 2 }}>
 				<Box>
 					<H1>サウナ用語集を貸切サウナととのうとの店主がまとめました。</H1>
-					<Typography variant='body1'>最終更新日:2024/07/14</Typography>
+					<Typography variant='body1'>最終更新日:2024年07月14日</Typography>
 					<br />
 					<Typography variant='body1'>
 						ととのうとの店主がサウナに関連する用語を紹介・解説します。
@@ -566,6 +566,7 @@ ReactDOM.createRoot(document.getElementById('saunaWords')!).render(
 								<Link href='https://apps.apple.com/jp/app/%E3%82%B5%E3%82%A6%E3%83%8A%E3%83%A9%E3%82%A4%E3%83%95-%E3%82%B5%E3%82%A6%E3%83%8A%E3%83%9E%E3%83%83%E3%83%97%E3%81%A7%E3%82%B5%E3%82%A6%E3%83%8A%E3%81%8C%E3%81%99%E3%81%90%E3%81%AB%E8%A6%8B%E3%81%A4%E3%81%8B%E3%82%8B/id1560767089'>
 									サウナライフ -サウナマップでサウナがすぐに見つかる App Store
 								</Link>
+								<br />
 								<br />
 								<Link href='https://play.google.com/store/apps/details?id=app.product.saunadaisuki&hl=ja&gl=US'>
 									サウナライフ – サウナマップでサウナがすぐに見つかるアプリ –
