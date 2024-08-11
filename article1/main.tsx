@@ -33,6 +33,7 @@ ReactDOM.createRoot(document.getElementById('article1')!).render(
 						<br />
 						貸切サウナととのうととは？
 					</H1>
+					<Typography variant='body1'>最終更新日:2024年07月15日</Typography>
 					<MyImg
 						src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff'
 						alt='ととのうとのロゴ'

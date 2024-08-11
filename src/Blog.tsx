@@ -20,8 +20,8 @@ const cardContents: {
 		date: '2024/07/14',
 		url: '/saunaWords/',
 		image:
-			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
-		alt: 'ととのうとロゴ',
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2FsaunaWords%2FwordsTop.jpeg?alt=media&token=92d34d2c-6a2e-4ebe-9ff6-90cd9dd9a154',
+		alt: 'サウナ用語集',
 	},
 	{
 		title: '貸切サウナととのうととは',
@@ -29,8 +29,8 @@ const cardContents: {
 		date: '2024/07/15',
 		url: '/article1/',
 		image:
-			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
-		alt: 'ととのうとロゴ',
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2F%E5%BA%97%E8%88%97%E5%A4%96%E8%A6%B3.jpeg?alt=media&token=e3c2f762-f02e-4fea-b206-f41e07eef0d9',
+		alt: 'ととのうと外観',
 	},
 	{
 		title: '店主がお店を始めたわけ',
@@ -74,8 +74,8 @@ const cardContents: {
 		date: '2024/07/27',
 		url: '/article6/',
 		image:
-			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
-		alt: 'ととのうとロゴ',
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle6%2Fsankakumeshi.jpeg?alt=media&token=d9a7adb7-4427-4bdb-b99f-4b9692d9370d',
+		alt: '鉄板炒飯',
 	},
 	{
 		title: 'サウナの本場北欧へ、店主のフィンランドサウナ旅。2019.09の旅行記',
@@ -85,6 +85,16 @@ const cardContents: {
 		image:
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle7%2Farticle7-1.jpeg?alt=media&token=c7832c97-46b7-4c39-9ce8-e981e5735066',
 		alt: 'フィンランドの湖',
+	},
+	{
+		title:
+			'フィンランドで有名なおすすめサウナ9選：ととのうと店主が実際に経験した究極のリラックス体験をご紹介',
+		text: 'サウナの本場フィンランドのおすすめサウナ施設をご紹介。ととのうと店主の実体験を交えてご紹介します。国の文化としてのサウナの魅力と訪れるべき有名なスポットを詳しく説明します。',
+		date: '2024/08/11',
+		url: '/article8/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle8%2FRajaportin3.jpeg?alt=media&token=aa8e8760-46d0-488d-8f99-33d798343ab8',
+		alt: 'フィンランドのサウナ',
 	},
 ]
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))

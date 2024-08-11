@@ -28,6 +28,7 @@ ReactDOM.createRoot(document.getElementById('article6')!).render(
 			<Container maxWidth='md'>
 				<Box component='article' sx={{ px: 4, mb: 15 }}>
 					<H1>貸切サウナととのうと店主が紹介する大阪八尾のサウナ飯</H1>
+					<Typography variant='body1'>最終更新日:2024年07月27日</Typography>
 					<MyImg
 						src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle6%2Fsankakumeshi.jpeg?alt=media&token=d9a7adb7-4427-4bdb-b99f-4b9692d9370d'
 						alt='鉄板炒飯'

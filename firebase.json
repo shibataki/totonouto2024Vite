@@ -32,6 +32,10 @@
 				"destination": "/article7/index.html"
 			},
 			{
+				"source": "/article8",
+				"destination": "/article8/index.html"
+			},
+			{
 				"source": "/saunaWords",
 				"destination": "/saunaWords/index.html"
 			},

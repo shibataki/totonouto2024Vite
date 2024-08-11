@@ -29,6 +29,7 @@ ReactDOM.createRoot(document.getElementById('article4')!).render(
 			<Container maxWidth='md'>
 				<Box component='article' sx={{ px: 4, mb: 15 }}>
 					<H1>貸切サウナととのうとプチリニューアル</H1>
+					<Typography variant='body1'>最終更新日:2024年07月21日</Typography>
 					<MyImg
 						src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff'
 						alt='ととのうとのロゴ'
@@ -136,6 +137,7 @@ ReactDOM.createRoot(document.getElementById('article4')!).render(
 								<br />
 								<br />
 							</Typography>
+
 							<H3>ひろーいお庭もまるごとつかえる？</H3>
 							<Typography variant='body1'>
 								「フタリサウナ」と「イロリサウナ」を別のお客様にご利用いただいております。
@@ -179,11 +181,11 @@ ReactDOM.createRoot(document.getElementById('article4')!).render(
 								<br />
 								<br />
 							</Typography>
-							<H3>総面積は60平米？</H3>
+							<H3>総面積は90平米？</H3>
 							<Typography variant='body1'>
 								ここまでと、あと細々したところをリニューアルすると。
 								<br />
-								総面積が60平米近くになります。
+								総面積が90平米以上になります。
 								<br />
 								これをまるっと1組で貸し切れる。
 								<br />

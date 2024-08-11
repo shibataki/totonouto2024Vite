@@ -126,7 +126,7 @@ export default function Header() {
 						</List>
 					</Box>
 				</Drawer>
-				<Typography variant='h2' sx={{ fontSize: 14 }}>
+				<Typography variant='h2' sx={{ fontSize: 10 }}>
 					貸切サウナととのうと
 					<br />
 					関西/大阪/プライベートな個室空間でととのう
