@@ -106,6 +106,16 @@ const cardContents: {
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
 		alt: 'ととのうとロゴ',
 	},
+	{
+		title:
+			'「貸切サウナととのうと」が「ななめうえトラベル」にて紹介されました。',
+		text: '「貸切サウナととのうと」で心も体もリセット！贅沢プライベートサウナで自然を満喫',
+		date: '2024/11/09',
+		url: 'https://nanameue-travel.com/oosaka-sauna-totonouto/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
+		alt: 'ととのうとロゴ',
+	},
 ]
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
