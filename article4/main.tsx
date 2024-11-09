@@ -169,6 +169,8 @@ ReactDOM.createRoot(document.getElementById('article4')!).render(
 								もちろん、お値段はそのまま
 								<br />
 								<br />
+								2024年8月よりご利用可能になりました。
+								<br />
 							</Typography>
 							<H3>ついにチラー導入？</H3>
 							<Typography variant='body1'>
@@ -179,6 +181,8 @@ ReactDOM.createRoot(document.getElementById('article4')!).render(
 								<br />
 								冷たくなっても、お値段はそのまま
 								<br />
+								<br />
+								2024年8月よりご利用可能になりました。
 								<br />
 							</Typography>
 							<H3>総面積は90平米？</H3>

@@ -96,6 +96,26 @@ const cardContents: {
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle8%2FRajaportin3.jpeg?alt=media&token=aa8e8760-46d0-488d-8f99-33d798343ab8',
 		alt: 'フィンランドのサウナ',
 	},
+	{
+		title:
+			'サウナ好きのご友人へのプレゼントに最適!貸切サウナととのうとeギフトカードのご利用方法',
+		text: 'サウナ好きのご友人や貸切サウナのプレゼントはいかがでしょうか。本記事では貸切サウナをプレゼントできるeギフトカードの購入方法とご利用方法を紹介します。',
+		date: '2024/09/01',
+		url: '/article9/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
+		alt: 'ととのうとロゴ',
+	},
+	{
+		title:
+			'「貸切サウナととのうと」が「ななめうえトラベル」にて紹介されました。',
+		text: '「貸切サウナととのうと」で心も体もリセット！贅沢プライベートサウナで自然を満喫',
+		date: '2024/11/09',
+		url: 'https://nanameue-travel.com/oosaka-sauna-totonouto/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
+		alt: 'ととのうとロゴ',
+	},
 ]
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
