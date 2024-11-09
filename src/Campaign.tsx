@@ -32,7 +32,7 @@ export default function Campaign() {
 					1000円OFF
 				</Typography>
 				<Typography variant='body1'>
-					ご利用中に公式LINEの友達追加と次回分のご予約をいただいたお客様にステッカーを無料で配布しております。くわしくは受付までお問い合わせください。
+					公式LINEの友達追加＋ご利用中に次回分のご予約で、次回のご利用料金を1000円OFFとさせて頂いております。くわしくは受付までお問い合わせください。
 				</Typography>
 			</Box>
 		</Box>
