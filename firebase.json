@@ -44,6 +44,11 @@
 				"destination": "/article10/index.html"
 			},
 			{
+				"source": "/article11",
+				"destination": "/article11/index.html"
+			},
+
+			{
 				"source": "/saunaWords",
 				"destination": "/saunaWords/index.html"
 			},

@@ -28,6 +28,7 @@ export default defineConfig({
 				article8: resolve(__dirname, 'article8/index.html'),
 				article9: resolve(__dirname, 'article9/index.html'),
 				article10: resolve(__dirname, 'article10/index.html'),
+				article11: resolve(__dirname, 'article11/index.html'),
 			},
 		},
 	},
