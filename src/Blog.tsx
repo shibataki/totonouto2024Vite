@@ -116,6 +116,24 @@ const cardContents: {
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
 		alt: 'ととのうとロゴ',
 	},
+	{
+		title: '新アロマ入荷！セルフロウリュでお楽しみいただけます。',
+		text: '新たに入荷した5種類の天然アロマとその特徴についてご紹介いたします',
+		date: '2024/12/06',
+		url: '/article10/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle10%2F%E3%82%A2%E3%83%AD%E3%83%9E.jpeg?alt=media&token=d049b81c-2648-4c79-9df7-ec7f869bf725',
+		alt: 'アロマオイル',
+	},
+	{
+		title: '貸切サウナととのうとのお庭 - 大阪で草花を楽しむ冬の外気浴',
+		text: '完全貸切のサウナと草花に囲まれたお庭で心身ともにリフレッシュ。冬支度をととのえたお庭で外気浴を楽しむのはいかがでしょうか。プライベート空間での温かいひとときをお楽しみください。',
+		date: '2024/12/29',
+		url: '/article11/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle11%2Fniwa1.jpeg?alt=media&token=250f3e6d-fbae-43cf-bffc-e4e307b7575a',
+		alt: 'ととのうとのお庭',
+	},
 ]
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
