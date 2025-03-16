@@ -134,6 +134,15 @@ const cardContents: {
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2Farticle11%2Fniwa1.jpeg?alt=media&token=250f3e6d-fbae-43cf-bffc-e4e307b7575a',
 		alt: 'ととのうとのお庭',
 	},
+	{
+		title: '第二回サ談会 開催のおしらせ',
+		text: 'サウナに入って、ご飯を食べて、語らい合うひととき...大阪府八尾市の貸切サウナ「ととのうと」を解放し、風呂文化に触れるひとときを企画します。サウナって？熱くない？苦しくない？初心者の方でも、馴染みのない方でも、愉しめる場を提供いたします。',
+		date: '2025/3/16',
+		url: 'https://square.link/u/BFtRaccQ',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2F%E3%82%B5%E8%AB%87%E4%BC%9A%2F%E3%82%B5%E8%AB%87%E4%BC%9A_02_%E3%82%A2%E3%83%BC%E3%83%88%E3%83%9B%E3%82%99%E3%83%BC%E3%83%88%E3%82%99%201.jpeg?alt=media&token=b9745725-fc92-4838-a8d4-acf50681056a',
+		alt: '第二回サ談会',
+	},
 ]
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
