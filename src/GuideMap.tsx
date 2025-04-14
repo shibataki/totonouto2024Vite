@@ -16,7 +16,7 @@ export default function GuideMap() {
 				<Box
 					component='img'
 					width='100%'
-					src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FGuideMap%2FguidMap202408.jpeg?alt=media&token=95b7faca-db63-4a14-abf3-cbd7531134e8'
+					src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FGuideMap%2FguidMap20250201.jpg?alt=media&token=1847d1aa-68fb-410c-bced-a94e31173f37'
 					alt='施設案内図'
 				/>
 			</Suspense>
