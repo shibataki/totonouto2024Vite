@@ -2,15 +2,12 @@ import { Box, Typography } from '@mui/material'
 import Grid from '@mui/material/Grid'
 import MyImg from './MyImg'
 
-const saunaName: string[] = ['サウナ2時間貸切']
-
-const saunaPrice: string[] = [
-	'2名：12,000-',
-	'3名：17,100-',
-	'4名：22,000-',
-	'5名：26,000-',
-	'6名：30,000-',
+const saunaName: string[] = [
+	'ルーム料金（事前決済）',
+	'当日利用料（1名様あたり）',
 ]
+
+const saunaPrice: string[] = ['9,800-', '1,000-']
 
 const drinkName: { id: string; name: string }[] = [
 	{ id: '1', name: 'シャリシャリオロポ' },
@@ -45,12 +42,12 @@ const rentalPrice: { id: string; price: string }[] = [
 ]
 
 const aromaName: { id: string; name: string }[] = [
-	{ id: '1', name: 'シラカバ' },
-	{ id: '2', name: 'ユーカリ' },
+	{ id: '1', name: 'ヴィヒタブレンド' },
+	{ id: '2', name: 'ずっとウッド' },
 ]
 const aromaPrice: { id: string; price: string }[] = [
-	{ id: '1', price: '300' },
-	{ id: '2', price: '300' },
+	{ id: '1', price: '400' },
+	{ id: '2', price: '400' },
 ]
 
 const amenitiesName: string[] = [
@@ -58,12 +55,11 @@ const amenitiesName: string[] = [
 	'化粧水',
 	'乳液',
 	'クレンジング',
-
 	'綿棒',
 	'シャンプー',
 	'コンディショナー',
 	'ボディソープ',
-	'腕時計',
+	'砂時計',
 ]
 
 export default function Price() {
@@ -91,17 +87,18 @@ export default function Price() {
 				</Grid>
 				<Grid item xs={12}>
 					<Typography
-						variant='h3'
+						variant='body1'
 						sx={{
 							textAlign: 'center',
 							mt: 5,
+							fontSize: 24,
 						}}
 					>
-						サウナご入浴料金
+						サウナ貸切料金（120min)
 					</Typography>
 				</Grid>
 				{saunaName.map((content) => (
-					<Grid item xs={12} key={content}>
+					<Grid item xs={6} key={content}>
 						<Box
 							sx={{
 								display: 'flex',
@@ -123,8 +120,8 @@ export default function Price() {
 					</Grid>
 				))}
 
-				<Grid item xs={12}>
-					{saunaPrice.map((content) => (
+				{saunaPrice.map((content) => (
+					<Grid item xs={6}>
 						<Typography
 							variant='body1'
 							sx={{ textAlign: 'center', mb: 0.2 }}
@@ -132,8 +129,9 @@ export default function Price() {
 						>
 							{content}
 						</Typography>
-					))}
-				</Grid>
+					</Grid>
+				))}
+
 				<Grid item xs={12}>
 					<Typography variant='body1'>
 						※イロリサウナとフタリサウナの両方をご利用いただけます。
