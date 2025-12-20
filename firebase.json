@@ -47,6 +47,10 @@
 				"source": "/article11",
 				"destination": "/article11/index.html"
 			},
+			{
+				"source": "/article12",
+				"destination": "/article12/index.html"
+			},
 
 			{
 				"source": "/saunaWords",
