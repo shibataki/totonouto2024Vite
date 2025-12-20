@@ -59,7 +59,7 @@ const amenitiesName: string[] = [
 	'シャンプー',
 	'コンディショナー',
 	'ボディソープ',
-	'砂時計',
+	'砂時計(5min)',
 ]
 
 export default function Price() {
@@ -94,7 +94,7 @@ export default function Price() {
 							fontSize: 24,
 						}}
 					>
-						サウナ貸切料金（120min)
+						サウナ貸切料金（150min)
 					</Typography>
 				</Grid>
 				{saunaName.map((content) => (
