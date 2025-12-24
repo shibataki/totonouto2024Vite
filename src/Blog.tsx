@@ -153,6 +153,15 @@ const cardContents: {
 			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fothers%2F%E3%82%B5%E8%AB%87%E4%BC%9A%2F%E3%82%B5%E8%AB%87%E4%BC%9A_02_%E3%82%A2%E3%83%BC%E3%83%88%E3%83%9B%E3%82%99%E3%83%BC%E3%83%88%E3%82%99%201.jpeg?alt=media&token=b9745725-fc92-4838-a8d4-acf50681056a',
 		alt: '第二回サ談会',
 	},
+	{
+		title: '「貸切サウナととのうと」で過ごす1日',
+		text: '忙しい日常から少し離れて、何もしない時間を。貸切サウナ「ととのうと」で過ごす1日を、初めての方にも分かりやすく紹介します。',
+		date: '2025/12/24',
+		url: '/article13/',
+		image:
+			'https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2FTopLogo%2Flogo512.jpeg?alt=media&token=31fe5aed-5208-44aa-8667-a6889e6645ff',
+		alt: 'ととのうとロゴ',
+	},
 ]
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
