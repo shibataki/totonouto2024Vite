@@ -5,6 +5,8 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
+import { useSectionView } from './hooks/useSectionView'
+
 interface IntroductionCardProps {
 	alt: string
 	urls: string[]
@@ -167,8 +169,9 @@ function IntroductionCard({ alt, urls, text }: IntroductionCardProps) {
 }
 
 export default function Introduction() {
+	const ref = useSectionView('introduction', 'イントロダクション')
 	return (
-		<>
+		<div ref={ref}>
 			<Typography variant='h2' sx={{ textAlign: 'center', mb: 5 }}>
 				ととのうとの
 				<br />
@@ -182,6 +185,6 @@ export default function Introduction() {
 					text={content.typo}
 				/>
 			))}
-		</>
+		</div>
 	)
 }

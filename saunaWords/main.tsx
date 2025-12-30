@@ -7,7 +7,7 @@ import theme from '../src/theme'
 
 import Link from '@mui/material/Link'
 import { Box, Typography, Container } from '@mui/material'
-import Grid from '@mui/material/Unstable_Grid2'
+import Grid from '@mui/material/Grid'
 
 import Header2 from '../src/Header2'
 import Footer from '../src/Footer'

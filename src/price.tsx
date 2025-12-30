@@ -1,6 +1,7 @@
 import { Box, Typography } from '@mui/material'
 import Grid from '@mui/material/Grid'
 import MyImg from './MyImg'
+import { useSectionView } from './hooks/useSectionView'
 
 const saunaName: string[] = [
 	'ルーム料金（事前決済）',
@@ -63,231 +64,234 @@ const amenitiesName: string[] = [
 ]
 
 export default function Price() {
+	const ref = useSectionView('price', '料金')
 	return (
-		<Box sx={{ paddingX: '10%', mb: 5 }}>
-			<Grid
-				container
-				spacing={2}
-				sx={{ color: '#FFF' }}
-				alignItems={'flex-start'}
-				justifyItems={'center'}
-			>
-				<Grid item xs={12}>
-					<Typography
-						variant='h2'
-						sx={{
-							textAlign: 'center',
-							mt: 5,
-						}}
-					>
-						ご利用料金
-						<br />
-						サービス内容
-					</Typography>
-				</Grid>
-				<Grid item xs={12}>
-					<Typography
-						variant='body1'
-						sx={{
-							textAlign: 'center',
-							mt: 5,
-							fontSize: 24,
-						}}
-					>
-						サウナ貸切料金（150min)
-					</Typography>
-				</Grid>
-				{saunaName.map((content) => (
-					<Grid item xs={6} key={content}>
-						<Box
+		<div ref={ref}>
+			<Box sx={{ paddingX: '10%', mb: 5 }}>
+				<Grid
+					container
+					spacing={2}
+					sx={{ color: '#FFF' }}
+					alignItems={'flex-start'}
+					justifyItems={'center'}
+				>
+					<Grid item xs={12}>
+						<Typography
+							variant='h2'
 							sx={{
-								display: 'flex',
-								justifyContent: 'center',
-								alignContent: 'center',
+								textAlign: 'center',
+								mt: 5,
 							}}
 						>
-							<Typography
-								variant='body1'
-								sx={{
-									writingMode: 'vertical-rl',
-									textOrientation: 'upright',
-									fontSize: 24,
-								}}
-							>
-								{content}
-							</Typography>
-						</Box>
+							ご利用料金
+							<br />
+							サービス内容
+						</Typography>
 					</Grid>
-				))}
-
-				{saunaPrice.map((content) => (
-					<Grid item xs={6}>
+					<Grid item xs={12}>
 						<Typography
 							variant='body1'
-							sx={{ textAlign: 'center', mb: 0.2 }}
-							key={content}
-						>
-							{content}
-						</Typography>
-					</Grid>
-				))}
-
-				<Grid item xs={12}>
-					<Typography variant='body1'>
-						※イロリサウナとフタリサウナの両方をご利用いただけます。
-					</Typography>
-				</Grid>
-				<Grid item xs={12}>
-					<Typography
-						variant='body1'
-						sx={{
-							textAlign: 'center',
-							mt: 5,
-							fontSize: 24,
-						}}
-					>
-						ドリンク
-					</Typography>
-				</Grid>
-
-				{drinkName.map((content) => (
-					<Grid item xs={2.4} key={content.id}>
-						<Box
 							sx={{
-								display: 'flex',
-								justifyContent: 'center',
-								alignContent: 'center',
+								textAlign: 'center',
+								mt: 5,
+								fontSize: 24,
 							}}
 						>
-							<Typography
-								variant='body1'
+							サウナ貸切料金（150min)
+						</Typography>
+					</Grid>
+					{saunaName.map((content) => (
+						<Grid item xs={6} key={content}>
+							<Box
 								sx={{
-									writingMode: 'vertical-rl',
-									textOrientation: 'upright',
+									display: 'flex',
+									justifyContent: 'center',
+									alignContent: 'center',
 								}}
 							>
-								{content.name}
-							</Typography>
-						</Box>
-					</Grid>
-				))}
+								<Typography
+									variant='body1'
+									sx={{
+										writingMode: 'vertical-rl',
+										textOrientation: 'upright',
+										fontSize: 24,
+									}}
+								>
+									{content}
+								</Typography>
+							</Box>
+						</Grid>
+					))}
 
-				{drinkPrice.map((content) => (
-					<Grid item xs={2.4} key={content.id}>
-						<Typography variant='body1' sx={{ textAlign: 'center' }}>
-							{content.price}
-						</Typography>
-					</Grid>
-				))}
-				<MyImg
-					src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fprice%2Foropo.jpeg?alt=media&token=9e26d098-18aa-4750-9f50-d6e83be0a549'
-					alt='シャリシャリオロポ'
-				/>
-				<Grid item xs={12}>
-					<Typography
-						variant='body1'
-						sx={{
-							textAlign: 'center',
-							mt: 5,
-							fontSize: 24,
-						}}
-					>
-						サウナグッズレンタル
-					</Typography>
-				</Grid>
-				{rentalName.map((content) => (
-					<Grid item xs={2} key={content.id}>
-						<Box
-							sx={{
-								display: 'flex',
-								justifyContent: 'center',
-								alignContent: 'center',
-							}}
-						>
+					{saunaPrice.map((content) => (
+						<Grid item xs={6} key={content}>
 							<Typography
 								variant='body1'
-								sx={{
-									writingMode: 'vertical-rl',
-									textOrientation: 'upright',
-								}}
+								sx={{ textAlign: 'center', mb: 0.2 }}
+								key={content}
 							>
-								{content.name}
-							</Typography>
-						</Box>
-					</Grid>
-				))}
-
-				{rentalPrice.map((content) => (
-					<Grid item xs={2} key={content.id}>
-						<Typography variant='body1' sx={{ textAlign: 'center' }}>
-							{content.price}
-						</Typography>
-					</Grid>
-				))}
-				<Grid item xs={12}>
-					<Typography
-						variant='body1'
-						sx={{
-							textAlign: 'center',
-							mt: 5,
-							fontSize: 24,
-						}}
-					>
-						ロウリュ用アロマ
-					</Typography>
-				</Grid>
-				{aromaName.map((content) => (
-					<Grid item xs={6} key={content.id}>
-						<Box
-							sx={{
-								display: 'flex',
-								justifyContent: 'center',
-								alignContent: 'center',
-							}}
-						>
-							<Typography variant='body1' sx={{ writingMode: 'vertical-rl' }}>
-								{content.name}
-							</Typography>
-						</Box>
-					</Grid>
-				))}
-
-				{aromaPrice.map((content) => (
-					<Grid item xs={6} key={content.id}>
-						<Typography variant='body1' sx={{ textAlign: 'center' }}>
-							{content.price}
-						</Typography>
-					</Grid>
-				))}
-				<Grid item xs={12}>
-					<Typography
-						variant='body1'
-						sx={{
-							textAlign: 'center',
-							mt: 5,
-							fontSize: 24,
-						}}
-					>
-						アメニティ（無料）
-					</Typography>
-				</Grid>
-
-				{amenitiesName.map((content) => (
-					<Grid item xs={1.3} key={content}>
-						<Box
-							sx={{
-								display: 'flex',
-								justifyContent: 'center',
-								alignContent: 'center',
-							}}
-						>
-							<Typography variant='body1' sx={{ writingMode: 'vertical-rl' }}>
 								{content}
 							</Typography>
-						</Box>
+						</Grid>
+					))}
+
+					<Grid item xs={12}>
+						<Typography variant='body1'>
+							※イロリサウナとフタリサウナの両方をご利用いただけます。
+						</Typography>
 					</Grid>
-				))}
-			</Grid>
-		</Box>
+					<Grid item xs={12}>
+						<Typography
+							variant='body1'
+							sx={{
+								textAlign: 'center',
+								mt: 5,
+								fontSize: 24,
+							}}
+						>
+							ドリンク
+						</Typography>
+					</Grid>
+
+					{drinkName.map((content) => (
+						<Grid item xs={2.4} key={content.id}>
+							<Box
+								sx={{
+									display: 'flex',
+									justifyContent: 'center',
+									alignContent: 'center',
+								}}
+							>
+								<Typography
+									variant='body1'
+									sx={{
+										writingMode: 'vertical-rl',
+										textOrientation: 'upright',
+									}}
+								>
+									{content.name}
+								</Typography>
+							</Box>
+						</Grid>
+					))}
+
+					{drinkPrice.map((content) => (
+						<Grid item xs={2.4} key={content.id}>
+							<Typography variant='body1' sx={{ textAlign: 'center' }}>
+								{content.price}
+							</Typography>
+						</Grid>
+					))}
+					<MyImg
+						src='https://firebasestorage.googleapis.com/v0/b/totonouto.appspot.com/o/img%2Fprice%2Foropo.jpeg?alt=media&token=9e26d098-18aa-4750-9f50-d6e83be0a549'
+						alt='シャリシャリオロポ'
+					/>
+					<Grid item xs={12}>
+						<Typography
+							variant='body1'
+							sx={{
+								textAlign: 'center',
+								mt: 5,
+								fontSize: 24,
+							}}
+						>
+							サウナグッズレンタル
+						</Typography>
+					</Grid>
+					{rentalName.map((content) => (
+						<Grid item xs={2} key={content.id}>
+							<Box
+								sx={{
+									display: 'flex',
+									justifyContent: 'center',
+									alignContent: 'center',
+								}}
+							>
+								<Typography
+									variant='body1'
+									sx={{
+										writingMode: 'vertical-rl',
+										textOrientation: 'upright',
+									}}
+								>
+									{content.name}
+								</Typography>
+							</Box>
+						</Grid>
+					))}
+
+					{rentalPrice.map((content) => (
+						<Grid item xs={2} key={content.id}>
+							<Typography variant='body1' sx={{ textAlign: 'center' }}>
+								{content.price}
+							</Typography>
+						</Grid>
+					))}
+					<Grid item xs={12}>
+						<Typography
+							variant='body1'
+							sx={{
+								textAlign: 'center',
+								mt: 5,
+								fontSize: 24,
+							}}
+						>
+							ロウリュ用アロマ
+						</Typography>
+					</Grid>
+					{aromaName.map((content) => (
+						<Grid item xs={6} key={content.id}>
+							<Box
+								sx={{
+									display: 'flex',
+									justifyContent: 'center',
+									alignContent: 'center',
+								}}
+							>
+								<Typography variant='body1' sx={{ writingMode: 'vertical-rl' }}>
+									{content.name}
+								</Typography>
+							</Box>
+						</Grid>
+					))}
+
+					{aromaPrice.map((content) => (
+						<Grid item xs={6} key={content.id}>
+							<Typography variant='body1' sx={{ textAlign: 'center' }}>
+								{content.price}
+							</Typography>
+						</Grid>
+					))}
+					<Grid item xs={12}>
+						<Typography
+							variant='body1'
+							sx={{
+								textAlign: 'center',
+								mt: 5,
+								fontSize: 24,
+							}}
+						>
+							アメニティ（無料）
+						</Typography>
+					</Grid>
+
+					{amenitiesName.map((content) => (
+						<Grid item xs={1.3} key={content}>
+							<Box
+								sx={{
+									display: 'flex',
+									justifyContent: 'center',
+									alignContent: 'center',
+								}}
+							>
+								<Typography variant='body1' sx={{ writingMode: 'vertical-rl' }}>
+									{content}
+								</Typography>
+							</Box>
+						</Grid>
+					))}
+				</Grid>
+			</Box>
+		</div>
 	)
 }

@@ -6,6 +6,8 @@ import { CardActionArea } from '@mui/material'
 
 import Link from '@mui/material/Link'
 
+import { useSectionView } from './hooks/useSectionView'
+
 const cardContents: {
 	title: string
 	text: string
@@ -166,15 +168,20 @@ const cardContents: {
 cardContents.sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
 
 export default function Blog() {
+	const ref = useSectionView('blog', 'ブログ')
 	return (
-		<>
+		<div ref={ref}>
 			<Box sx={{ color: '#FFF', mx: 3, mb: 10 }}>
 				<Typography variant='h2' align='center'>
 					店主のブログ
 				</Typography>
 
 				{cardContents.map((contents) => (
-					<Link href={contents.url} sx={{ textDecoration: 'none' }}>
+					<Link
+						href={contents.url}
+						sx={{ textDecoration: 'none' }}
+						key={contents.title}
+					>
 						<Card
 							sx={{
 								maxWidth: 345,
@@ -213,6 +220,6 @@ export default function Blog() {
 					</Link>
 				))}
 			</Box>
-		</>
+		</div>
 	)
 }
