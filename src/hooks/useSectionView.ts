@@ -34,7 +34,7 @@ export const useSectionView = (sectionId: string, sectionName: string) => {
 					}
 				})
 			},
-			{ threshold: 0.5 }
+			{ threshold: 0.1 }
 		)
 
 		observer.observe(ref.current)
