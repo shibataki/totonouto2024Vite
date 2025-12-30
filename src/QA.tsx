@@ -5,6 +5,7 @@ import AccordionSummary from '@mui/material/AccordionSummary'
 import AccordionDetails from '@mui/material/AccordionDetails'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import Divider from '@mui/material/Divider'
+import { useSectionView } from './hooks/useSectionView'
 
 const QAs: { Q: string; A: string[] }[] = [
 	{
@@ -129,42 +130,50 @@ export default function QA() {
 		(panel: string) => (_event: React.SyntheticEvent, isExpanded: boolean) => {
 			setExpanded(isExpanded ? panel : false)
 		}
+
+	const ref = useSectionView('qa', 'Q&A')
+
 	return (
-		<Container sx={{ mb: 5 }}>
-			<Box>
-				<Typography
-					variant='h2'
-					sx={{ color: '#FFF', textAlign: 'center', mb: 2, mt: 10 }}
-				>
-					Q&A:よくある質問
-				</Typography>
-				{QAs.map((content) => (
-					<Accordion
-						expanded={expanded === content.Q}
-						onChange={handleChange(content.Q)}
-						sx={{ background: '#333333', color: '#FFF' }}
-						key={content.Q}
+		<div ref={ref}>
+			<Container sx={{ mb: 5 }}>
+				<Box>
+					<Typography
+						variant='h2'
+						sx={{ color: '#FFF', textAlign: 'center', mb: 2, mt: 10 }}
 					>
-						<AccordionSummary
-							expandIcon={<ExpandMoreIcon />}
-							aria-controls={content.Q}
-							id={content.Q}
+						Q&A:よくある質問
+					</Typography>
+					{QAs.map((content) => (
+						<Accordion
+							expanded={expanded === content.Q}
+							onChange={handleChange(content.Q)}
+							sx={{ background: '#333333', color: '#FFF' }}
+							key={content.Q}
 						>
-							<Typography variant='body1' sx={{ width: '100%', flexShrink: 0 }}>
-								{content.Q}
-							</Typography>
-						</AccordionSummary>
-						<AccordionDetails>
-							<Divider sx={{ background: '#FFF', mb: 1 }} />
-							{content.A.map((ans, i) => (
-								<Typography variant='body1' key={i}>
-									{ans}
+							<AccordionSummary
+								expandIcon={<ExpandMoreIcon />}
+								aria-controls={content.Q}
+								id={content.Q}
+							>
+								<Typography
+									variant='body1'
+									sx={{ width: '100%', flexShrink: 0 }}
+								>
+									{content.Q}
 								</Typography>
-							))}
-						</AccordionDetails>
-					</Accordion>
-				))}
-			</Box>
-		</Container>
+							</AccordionSummary>
+							<AccordionDetails>
+								<Divider sx={{ background: '#FFF', mb: 1 }} />
+								{content.A.map((ans, i) => (
+									<Typography variant='body1' key={i}>
+										{ans}
+									</Typography>
+								))}
+							</AccordionDetails>
+						</Accordion>
+					))}
+				</Box>
+			</Container>
+		</div>
 	)
 }
